@@ -41,7 +41,7 @@ export default function LeadershipTeam() {
             className="text-xl text-gray-600 max-w-3xl mx-auto mb-6"
             style={{ fontFamily: "Roboto, serif" }}
           >
-            Meet the dedicated professionals leading Oshodi-Isolo&apos;s
+            Meet the dedicated professionals leading Ayobo-Ipaja&apos;s
             transformation
           </p>
           <div className="w-24 h-1 bg-emerald-600 mx-auto rounded-full"></div>

@@ -28,7 +28,7 @@ const ContactHeader = () => {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
             Contact
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500 dark:from-yellow-300 dark:to-orange-400">
-              Oshodi Local Government
+              Ayobo - Ipaja LCDA
             </span>
           </h1>
         </div>
@@ -44,7 +44,7 @@ const ContactHeader = () => {
         >
           <p className="text-xl md:text-2xl text-blue-100 dark:text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
             Connect with our dedicated officials and representatives serving the
-            Oshodi community
+            Ayobo - Ipaja community
           </p>
         </div>
 

@@ -13,9 +13,9 @@ export default function AboutNavigation({ activeSection, onSectionChange }) {
 
   const navItems = [
     { id: "overview", label: "Overview", icon: "👤" },
-    { id: "biography", label: "Biography", icon: "📖" },
-    { id: "leadership", label: "Leadership Team", icon: "👥" },
-    { id: "structure", label: "Office Structure", icon: "🏛️" },
+    { id: "biography", label: "Bio", icon: "📖" },
+    { id: "leadership", label: "Team", icon: "👥" },
+    { id: "structure", label: "Structure", icon: "🏛️" },
     { id: "achievements", label: "Achievements", icon: "🏆" },
   ];
 
@@ -51,7 +51,7 @@ export default function AboutNavigation({ activeSection, onSectionChange }) {
                 className="text-white font-bold text-lg"
                 style={{ fontFamily: "Montserrat, sans-serif" }}
               >
-                KA
+                AA
               </span>
             </div>
             <div>
@@ -59,7 +59,7 @@ export default function AboutNavigation({ activeSection, onSectionChange }) {
                 className="text-xl font-bold text-gray-800 group-hover:text-emerald-600 transition"
                 style={{ fontFamily: "Montserrat, sans-serif" }}
               >
-                Otunba Kehinde Almaroof
+                Hon Agbaje Luqman Abiodun
               </h1>
               <p
                 className="text-sm text-gray-600"

@@ -7,9 +7,9 @@ export const leadershipTeam = [
     position: "Executive Chairman",
     department: "Office of the Chairman",
     description:
-      "Leading the transformation of Oshodi-Isolo with vision, integrity, and community-focused governance.",
+      "Leading the transformation of Ayobo-Ipaja with vision, integrity, and community-focused governance.",
     icon: "👑",
-    image: "/img/kendoo.webp",
+    image: "/img/Agbaje.jpg",
     color: "from-emerald-500 to-teal-600",
     isChairman: true,
   },
@@ -20,7 +20,7 @@ export const leadershipTeam = [
     description:
       "Supporting the Chairman in policy implementation and community outreach programs.",
     icon: "🤝",
-    image: "/img/vice-chair.webp",
+    image: "/img/placeholderFemale.webp",
     color: "from-blue-500 to-indigo-600",
   },
   {

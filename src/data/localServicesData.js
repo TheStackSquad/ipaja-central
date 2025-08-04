@@ -3,85 +3,85 @@
 export const localServicesData = {
   emergencyServices: [
     {
-      id: "makinde-police",
-      name: "Makinde Police Division",
+      id: "ayobo-ipaja-police",
+      name: "Ayobo-Ipaja Police Division",
       category: "Emergency Services",
       priority: 1,
       contact: {
-        phone: "+234-803-123-4567",
-        email: "makinde.police@lagosstate.gov.ng"
+        phone: "+234-803-555-0101",
+        email: "police.ayobo-ipaja@lagosstate.gov.ng",
       },
-      address: "Makinde Street, Mafoluku, Oshodi, Lagos",
-      coordinates: { lat: 6.5244, lng: 3.3792 },
+      address: "Ayobo Road, Ipaja, Lagos",
+      coordinates: { lat: 6.61, lng: 3.24 },
       hours: "24/7",
       status: "Available",
-      description: "Full-service police station handling criminal matters, complaints, and emergency response.",
+      description:
+        "Full-service police station handling criminal matters, complaints, and emergency response.",
       onlineServices: ["Report Crime Online", "Police Report Request"],
       processingTime: "Immediate for emergencies",
-  //    requirements: "Valid ID for visits, incident details for reports",
       fees: "Free for emergencies",
-      hasOnlineOption: true
+      hasOnlineOption: true,
     },
     {
-      id: "akinpelu-police",
-      name: "Akinpelu Police Division",
+      id: "ayobo-police-post",
+      name: "Ayobo Police Post",
       category: "Emergency Services",
       priority: 1,
       contact: {
-        phone: "+234-803-123-4568",
-        email: "akinpelu.police@lagosstate.gov.ng"
+        phone: "+234-803-555-0102",
+        email: "ayobopost.police@lagosstate.gov.ng",
       },
-      address: "Akinpelu Street, Bolade, Oshodi-Isolo",
-      coordinates: { lat: 6.5150, lng: 3.3420 },
+      address: "Olayemi Tella Street, Ayobo, Lagos",
+      coordinates: { lat: 6.611, lng: 3.245 },
       hours: "24/7",
       status: "Available",
-      description: "Community policing and crime prevention services.",
+      description:
+        "Community policing and crime prevention services for the Ayobo area.",
       onlineServices: ["Report Crime Online", "Police Report Request"],
       processingTime: "Immediate for emergencies",
-      // requirements: "Valid ID, incident details",
       fees: "Free for emergencies",
-      hasOnlineOption: true
+      hasOnlineOption: true,
     },
     {
-      id: "mosafejo-police",
-      name: "Mosafejo Police Division",
-      category: "Emergency Services", 
+      id: "ipaja-police-station",
+      name: "Ipaja Police Station",
+      category: "Emergency Services",
       priority: 1,
       contact: {
-        phone: "+234-803-123-4569",
-        email: "mosafejo.police@lagosstate.gov.ng"
+        phone: "+234-803-555-0103",
+        email: "ipajastation.police@lagosstate.gov.ng",
       },
-      address: "Mosafejo Street, beside LASTMA Office, Oshodi-Isolo, Lagos",
-      coordinates: { lat: 6.5300, lng: 3.3500 },
+      address: "Moshalasi Round-about, Ipaja, Lagos",
+      coordinates: { lat: 6.608, lng: 3.25 },
       hours: "24/7",
       status: "Available",
-      description: "Traffic and general police services.",
+      description:
+        "General police services and traffic control for the Ipaja axis.",
       onlineServices: ["Traffic Report", "Police Report Request"],
       processingTime: "Immediate for emergencies",
-      // requirements: "Valid ID",
-     fees: "Free for emergencies",
-      hasOnlineOption: true
+      fees: "Free for emergencies",
+      hasOnlineOption: true,
     },
     {
-      id: "shogunle-police",
-      name: "Shogunle Police Division",
+      id: "sangun-police-station",
+      name: "Sangun Police Post",
       category: "Emergency Services",
       priority: 1,
       contact: {
-        phone: "+234-803-123-4570",
-        email: "shogunle.police@lagosstate.gov.ng"
+        phone: "+234-803-555-0104",
+        email: "sangunpost.police@lagosstate.gov.ng",
       },
-      address: "Shogunle Street, by Oshodi Bus Stop, Oshodi-Isolo, Lagos",
-      coordinates: { lat: 6.5280, lng: 3.3450 },
-      hours: "24/7", 
+      address: "Sangun, Ipaja, Lagos",
+      coordinates: { lat: 6.615, lng: 3.242 },
+      hours: "24/7",
       status: "Available",
-      description: "General police services and community safety.",
+      description:
+        "General police services and community safety for the Sangun area.",
       onlineServices: ["Report Crime Online", "Police Report Request"],
       processingTime: "Immediate for emergencies",
-      // requirements: "Valid ID",
-     fees: "Free for emergencies",
-      hasOnlineOption: true
-    }
+      fees: "Free for emergencies",
+      hasOnlineOption: true,
+    },
   ],
 
   onlineFirstServices: [
@@ -91,25 +91,27 @@ export const localServicesData = {
       category: "Online-First Services",
       priority: 1,
       contact: {
-        phone: "+234-803-123-4571",
-        email: "permits@oshodi-isolo.gov.ng"
+        phone: "+234-803-555-0201",
+        email: "permits@ayobo-ipaja.gov.ng",
       },
-      address: "Oshodi-Isolo LGA Secretariat, Oshodi, Lagos",
-      coordinates: { lat: 6.5244, lng: 3.3792 },
+      address: "Ayobo-Ipaja LGA Secretariat, Ayobo, Lagos",
+      coordinates: { lat: 6.61, lng: 3.24 },
       hours: "9:00 AM - 3:00 PM (Mon-Fri)",
       status: "Available",
-      description: "Register new businesses, renew permits, business name registration - now available online!",
+      description:
+        "Register new businesses, renew permits, business name registration - now available online!",
       onlineServices: [
         "Apply for New Business Permit",
         "Renew Existing Permit",
         "Check Application Status",
         "Download Certificate",
-        "Pay Fees Online"
+        "Pay Fees Online",
       ],
       processingTime: "3-5 business days online, 7-10 days in-person",
-      requirements: "Business plan, valid ID, proof of address, CAC certificate",
+      requirements:
+        "Business plan, valid ID, proof of address, CAC certificate",
       fees: "₦15,000 - ₦50,000 (pay online for 10% discount)",
-      hasOnlineOption: true
+      hasOnlineOption: true,
     },
     {
       id: "tax-payment",
@@ -117,52 +119,55 @@ export const localServicesData = {
       category: "Online-First Services",
       priority: 1,
       contact: {
-        phone: "+234-803-123-4572", 
-        email: "tax@oshodi-isolo.gov.ng"
+        phone: "+234-803-555-0202",
+        email: "tax@ayobo-ipaja.gov.ng",
       },
-      address: "Oshodi-Isolo LGA Tax Office, Oshodi, Lagos",
-      coordinates: { lat: 6.5200, lng: 3.3750 },
+      address: "Ayobo-Ipaja LGA Tax Office, Lagos",
+      coordinates: { lat: 6.61, lng: 3.24 },
       hours: "8:00 AM - 4:00 PM (Mon-Fri)",
       status: "Available",
-      description: "Pay personal income tax, property tax, and get tax clearance certificates online.",
+      description:
+        "Pay personal income tax, property tax, and get tax clearance certificates online.",
       onlineServices: [
         "Pay Income Tax Online",
-        "Property Tax Payment", 
+        "Property Tax Payment",
         "Download Tax Clearance",
         "Tax Assessment Appeal",
-        "Payment History"
+        "Payment History",
       ],
       processingTime: "Instant online payment, 24-48 hours for certificates",
-      requirements: "Valid ID, TIN number, property documents (for property tax)",
+      requirements:
+        "Valid ID, TIN number, property documents (for property tax)",
       fees: "Varies by income/property value (online payment saves time)",
-      hasOnlineOption: true
+      hasOnlineOption: true,
     },
     {
       id: "birth-certificate",
       name: "Birth Certificate Registration",
-      category: "Online-First Services", 
+      category: "Online-First Services",
       priority: 1,
       contact: {
-        phone: "+234-803-123-4573",
-        email: "registry@oshodi-isolo.gov.ng"
+        phone: "+234-803-555-0203",
+        email: "registry@ayobo-ipaja.gov.ng",
       },
-      address: "Oshodi-Isolo Registry Office, Oshodi, Lagos",
-      coordinates: { lat: 6.5150, lng: 3.3800 },
+      address: "Ayobo-Ipaja Registry Office, Lagos",
+      coordinates: { lat: 6.61, lng: 3.24 },
       hours: "9:00 AM - 3:00 PM (Mon-Fri)",
       status: "Available",
-      description: "Register births and obtain certificates online - skip the queue!",
+      description:
+        "Register births and obtain certificates online - skip the queue!",
       onlineServices: [
         "Apply for Birth Certificate",
         "Correct Birth Certificate",
         "Track Application Status",
         "Download Certificate",
-        "Pay Processing Fees"
+        "Pay Processing Fees",
       ],
       processingTime: "5-7 days online, 14-21 days in-person",
       requirements: "Hospital birth record, parents' ID, marriage certificate",
       fees: "₦3,000 online, ₦5,000 in-person",
-      hasOnlineOption: true
-    }
+      hasOnlineOption: true,
+    },
   ],
 
   utilitiesInfrastructure: [
@@ -172,24 +177,25 @@ export const localServicesData = {
       category: "Utilities & Infrastructure",
       priority: 2,
       contact: {
-        phone: "+234-803-123-4574",
-        email: "health@oshodi-isolo.gov.ng"
+        phone: "+234-803-555-0301",
+        email: "health@ayobo-ipaja.gov.ng",
       },
-      address: "Multiple locations across Oshodi-Isolo LGA",
-      coordinates: { lat: 6.5244, lng: 3.3792 },
+      address: "Various locations across Ayobo-Ipaja LGA",
+      coordinates: { lat: 6.61, lng: 3.24 },
       hours: "8:00 AM - 4:00 PM (Mon-Fri), Emergency 24/7",
       status: "Available",
-      description: "Maternal health, child immunization, family planning, and basic medical services.",
+      description:
+        "Maternal health, child immunization, family planning, and basic medical services.",
       onlineServices: [
         "Book Appointment Online",
         "Download Health Records",
         "Vaccination Schedule",
-        "Antenatal Registration"
+        "Antenatal Registration",
       ],
       processingTime: "Same day for appointments, instant for records",
       requirements: "Health insurance card or payment, valid ID",
       fees: "₦500 - ₦2,000 per consultation",
-      hasOnlineOption: true
+      hasOnlineOption: true,
     },
     {
       id: "waste-management",
@@ -197,24 +203,25 @@ export const localServicesData = {
       category: "Utilities & Infrastructure",
       priority: 2,
       contact: {
-        phone: "+234-803-123-4575",
-        email: "waste@oshodi-isolo.gov.ng"
+        phone: "+234-803-555-0302",
+        email: "waste@ayobo-ipaja.gov.ng",
       },
-      address: "Oshodi-Isolo Environmental Office, Lagos",
-      coordinates: { lat: 6.5300, lng: 3.3700 },
+      address: "Ayobo-Ipaja Environmental Office, Lagos",
+      coordinates: { lat: 6.61, lng: 3.24 },
       hours: "24/7 Collection Service",
       status: "Available",
-      description: "Household waste collection, recycling programs, and environmental services.",
+      description:
+        "Household waste collection, recycling programs, and environmental services.",
       onlineServices: [
         "Schedule Waste Pickup",
         "Report Missed Collection",
         "Pay Waste Bills Online",
-        "Request Recycling Service"
+        "Request Recycling Service",
       ],
       processingTime: "24-48 hours for pickup requests",
       requirements: "Property address verification",
       fees: "₦1,500 monthly for households, ₦5,000+ for businesses",
-      hasOnlineOption: true
+      hasOnlineOption: true,
     },
     {
       id: "water-sewage",
@@ -222,24 +229,25 @@ export const localServicesData = {
       category: "Utilities & Infrastructure",
       priority: 2,
       contact: {
-        phone: "+234-803-123-4576",
-        email: "water@oshodi-isolo.gov.ng"
+        phone: "+234-803-555-0303",
+        email: "water@ayobo-ipaja.gov.ng",
       },
-      address: "Oshodi-Isolo Water Works, Lagos",
-      coordinates: { lat: 6.5180, lng: 3.3650 },
+      address: "Ayobo-Ipaja Water Works, Lagos",
+      coordinates: { lat: 6.61, lng: 3.24 },
       hours: "8:00 AM - 5:00 PM (Mon-Fri), Emergency 24/7",
       status: "Available",
-      description: "Water supply connections, sewage services, and pipeline maintenance.",
+      description:
+        "Water supply connections, sewage services, and pipeline maintenance.",
       onlineServices: [
         "Apply for Water Connection",
         "Report Water Issues",
         "Pay Water Bills",
-        "Request Maintenance"
+        "Request Maintenance",
       ],
       processingTime: "3-5 days for connections, 24 hours for repairs",
       requirements: "Property ownership proof, application fee",
       fees: "₦25,000 connection fee, monthly bills vary",
-      hasOnlineOption: true
+      hasOnlineOption: true,
     },
     {
       id: "road-maintenance",
@@ -247,25 +255,26 @@ export const localServicesData = {
       category: "Utilities & Infrastructure",
       priority: 3,
       contact: {
-        phone: "+234-803-123-4577",
-        email: "roads@oshodi-isolo.gov.ng"
+        phone: "+234-803-555-0304",
+        email: "roads@ayobo-ipaja.gov.ng",
       },
-      address: "Oshodi-Isolo Works Department, Lagos",
-      coordinates: { lat: 6.5220, lng: 3.3680 },
+      address: "Ayobo-Ipaja Works Department, Lagos",
+      coordinates: { lat: 6.61, lng: 3.24 },
       hours: "8:00 AM - 5:00 PM (Mon-Fri)",
       status: "Available",
-      description: "Road repairs, street lighting, drainage, and general infrastructure maintenance.",
+      description:
+        "Road repairs, street lighting, drainage, and general infrastructure maintenance.",
       onlineServices: [
         "Report Road Damage",
         "Request Street Light Repair",
         "Submit Infrastructure Complaint",
-        "Track Repair Status"
+        "Track Repair Status",
       ],
       processingTime: "7-14 days depending on issue severity",
       requirements: "Location details, photo evidence preferred",
       fees: "Free for public infrastructure",
-      hasOnlineOption: true
-    }
+      hasOnlineOption: true,
+    },
   ],
 
   administrativeServices: [
@@ -275,24 +284,25 @@ export const localServicesData = {
       category: "Administrative Services",
       priority: 2,
       contact: {
-        phone: "+234-803-123-4578",
-        email: "marriage@oshodi-isolo.gov.ng"
+        phone: "+234-803-555-0401",
+        email: "marriage@ayobo-ipaja.gov.ng",
       },
-      address: "Oshodi-Isolo Marriage Registry, Lagos",
-      coordinates: { lat: 6.5190, lng: 3.3720 },
+      address: "Ayobo-Ipaja Marriage Registry, Lagos",
+      coordinates: { lat: 6.61, lng: 3.24 },
       hours: "9:00 AM - 3:00 PM (Mon-Fri)",
       status: "Available",
-      description: "Marriage registration, certificate issuance, and marriage verification services.",
+      description:
+        "Marriage registration, certificate issuance, and marriage verification services.",
       onlineServices: [
         "Book Marriage Date",
         "Download Marriage Certificate",
         "Marriage Verification",
-        "Pay Registration Fees"
+        "Pay Registration Fees",
       ],
       processingTime: "Same day for ceremonies, 3-5 days for certificates",
       requirements: "Valid IDs, divorce certificate (if applicable), witnesses",
       fees: "₦10,000 registration + ₦5,000 certificate",
-      hasOnlineOption: true
+      hasOnlineOption: true,
     },
     {
       id: "death-certificate",
@@ -300,24 +310,26 @@ export const localServicesData = {
       category: "Administrative Services",
       priority: 2,
       contact: {
-        phone: "+234-803-123-4579",
-        email: "registry@oshodi-isolo.gov.ng"
+        phone: "+234-803-555-0402",
+        email: "registry@ayobo-ipaja.gov.ng",
       },
-      address: "Oshodi-Isolo Registry Office, Lagos",
-      coordinates: { lat: 6.5150, lng: 3.3800 },
+      address: "Ayobo-Ipaja Registry Office, Lagos",
+      coordinates: { lat: 6.61, lng: 3.24 },
       hours: "9:00 AM - 3:00 PM (Mon-Fri)",
       status: "Available",
-      description: "Death registration and certificate issuance for legal and administrative purposes.",
+      description:
+        "Death registration and certificate issuance for legal and administrative purposes.",
       onlineServices: [
         "Register Death Online",
         "Download Death Certificate",
         "Death Verification",
-        "Correction Requests"
+        "Correction Requests",
       ],
       processingTime: "5-7 days",
-      requirements: "Medical certificate of death, ID of deceased, next of kin ID",
+      requirements:
+        "Medical certificate of death, ID of deceased, next of kin ID",
       fees: "₦3,000 registration + ₦2,000 per certificate copy",
-      hasOnlineOption: true
+      hasOnlineOption: true,
     },
     {
       id: "land-documentation",
@@ -325,26 +337,28 @@ export const localServicesData = {
       category: "Administrative Services",
       priority: 3,
       contact: {
-        phone: "+234-803-123-4580",
-        email: "lands@oshodi-isolo.gov.ng"
+        phone: "+234-803-555-0403",
+        email: "lands@ayobo-ipaja.gov.ng",
       },
-      address: "Oshodi-Isolo Lands Office, Lagos",
-      coordinates: { lat: 6.5170, lng: 3.3760 },
+      address: "Ayobo-Ipaja Lands Office, Lagos",
+      coordinates: { lat: 6.61, lng: 3.24 },
       hours: "9:00 AM - 3:00 PM (Mon-Fri)",
       status: "Limited Services",
-      description: "Land ownership verification, building permits, and property documentation.",
+      description:
+        "Land ownership verification, building permits, and property documentation.",
       onlineServices: [
         "Verify Land Ownership",
         "Apply for Building Permit",
         "Property Search",
-        "Document Certification"
+        "Document Certification",
       ],
       processingTime: "14-21 days for permits, 7 days for verification",
-      requirements: "Survey plans, land documents, architectural drawings (for permits)",
+      requirements:
+        "Survey plans, land documents, architectural drawings (for permits)",
       fees: "₦50,000 - ₦200,000 depending on property size and permit type",
-      hasOnlineOption: false
-    }
-  ]
+      hasOnlineOption: false,
+    },
+  ],
 };
 
 // Helper function to get all services sorted by priority and online availability
