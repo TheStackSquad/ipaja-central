@@ -3,24 +3,24 @@
 const trendingNews = [
   {
     id: 1,
-    title: "Oshodi-Isolo LG Chairman Commissions New Road, Borehole Projects",
+    title: "Ayobo-Ipaja LCDA Chairman Commissions Borehole Projects",
     category: "Community Development",
     readTime: "3 min",
     trend: "✨ Local Buzz",
-    image: "/img/road.jpg",
+    image: "/img/Community.webp",
   },
   {
     id: 2,
-    title: "Oshodi Market Traders Protest New Sanitation Regulations",
+    title: "Ipaja Market Traders Protest New Sanitation Regulations",
     category: "Local Business",
     readTime: "5 min",
     trend: "⚠️ Hot Topic",
-    image: "/img/market.jpg",
+    image: "/img/market.webp",
   },
   {
     id: 3,
     title:
-      "Neighborhood Watch Groups Call for Increased Security Patrols in Mafoluku",
+      "Neighborhood Watch Groups Call for Increased Security Patrols in Mosan",
     category: "Security",
     readTime: "4 min",
     trend: "🚨 Rising Concerns",
@@ -28,19 +28,19 @@ const trendingNews = [
   },
   {
     id: 4,
-    title: "Youths in Oshodi Participate in Vocational Skills Training Program",
+    title: "Youths in Ayobo Participate in Vocational Skills Training Program",
     category: "Empowerment",
     readTime: "6 min",
     trend: "💪 Making Moves",
-    image: "/img/vocational-1.jpg",
+    image: "/img/vocational-1.webp",
   },
   {
     id: 5,
-    title: "Community Outreach Provides Food Relief to Elderly in Oshodi",
+    title: "Community Outreach Provides Food Relief to Elderly in Fafunwa",
     category: "Social",
     readTime: "2 min",
     trend: "❤️ Viral Kindness",
-    image: "/img/food.jpg",
+    image: "/img/food.webp",
   },
 ];
 

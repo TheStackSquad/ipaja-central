@@ -18,7 +18,7 @@ export default function AchievementsSection() {
     {
       title: "Electoral Victory",
       description:
-        "Successfully won the 2025 Lagos Local Government Election for Oshodi-Isolo LGA",
+        "Successfully won the 2025 Lagos Local Government Election for Ayobo-Ipaja LCDA",
       icon: "🏆",
       color: "from-yellow-400 to-orange-500",
     },

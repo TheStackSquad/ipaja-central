@@ -13,15 +13,15 @@ export default function OfficeStructure() {
   const organizationStructure = {
     executive: {
       title: "Executive Office",
-      head: "Otunba Kehinde Oloyode Almaroof",
+      head: "Hon Agbaje Luqman Abiodun",
       position: "Executive Chairman",
       members: 5,
-      color: "from-emerald-500 to-teal-600",
+      color: "from-indigo-500 to-teal-600",
       icon: "👑",
       departments: [
         {
           name: "Office of the Chairman",
-          head: "Otunba Kehinde Almaroof",
+          head: "Hon Agbaje Luqman Abiodun",
           staff: 3,
         },
         {
@@ -417,7 +417,7 @@ export default function OfficeStructure() {
                       className="text-sm opacity-90"
                       style={{ fontFamily: "Roboto, serif" }}
                     >
-                      Otunba Kehinde Almaroof
+                      Hon Agbaje Luqman Abiodun
                     </div>
                   </div>
                 </div>

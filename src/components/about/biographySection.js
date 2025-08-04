@@ -28,7 +28,7 @@ export default function BiographySection() {
             className="text-4xl md:text-5xl font-bold text-gray-800 mb-4"
             style={{ fontFamily: "Montserrat, sans-serif" }}
           >
-            About Otunba Kehinde Almaroof
+            About Agbaje Luqman Abiodun
           </h2>
           <div className="w-24 h-1 bg-emerald-600 mx-auto rounded-full"></div>
         </div>
@@ -58,8 +58,8 @@ export default function BiographySection() {
               </div> */}
 
               <Image
-                src="/img/kendoo.webp"
-                alt="Official portrait of Otunba Kehinde Oloyode Almaroof"
+                src="/img/Agbaje.jpg"
+                alt="Official portrait of Agbaje Luqman"
                 width={800}
                 height={1000}
                 layout="responsive"
@@ -86,10 +86,10 @@ export default function BiographySection() {
                 className="text-gray-700 leading-relaxed mb-6"
                 style={{ fontFamily: "Roboto, serif" }}
               >
-                Otunba Kehinde Oloyode Almaroof stands as a distinguished leader
+                Hon Agbaje Luqman Abiodun stands as a distinguished leader
                 in Lagos State politics, having recently secured victory in the
                 2025 Lagos Local Government Election as the Executive Chairman
-                of Oshodi-Isolo Local Government Area.
+                of Ayobo-Ipaja Local Government Area.
               </p>
 
               <div className="grid md:grid-cols-2 gap-4 mb-6">
@@ -104,7 +104,7 @@ export default function BiographySection() {
                     className="text-sm text-gray-600"
                     style={{ fontFamily: "Roboto, serif" }}
                   >
-                    Executive Chairman, Oshodi-Isolo LGA
+                    Executive Chairman, Ayobo-Ipaja LCDA
                   </p>
                 </div>
                 <div className="bg-white p-4 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
@@ -128,7 +128,7 @@ export default function BiographySection() {
                 style={{ fontFamily: "Roboto, serif" }}
               >
                 Known for his active engagement with the community and strong
-                social media presence, Otunba Almaroof has built a reputation as
+                social media presence, Hon Agbaje has built a reputation as
                 an accessible and responsive leader who prioritizes direct
                 communication with the people of Oshodi-Isolo.
               </p>
