@@ -132,7 +132,7 @@ export default function Header() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            Ipaja Central
+            Alimosho Central
           </motion.div>
         </Link>
 

@@ -1,4 +1,5 @@
 //src/app/about/visionSection.js
+
 "use client";
 
 import React from "react";
@@ -76,7 +77,7 @@ export default function VisionSection() {
             className="text-4xl md:text-5xl font-bold text-white mb-4"
             style={{ fontFamily: "Montserrat, sans-serif" }}
           >
-            Vision for Oshodi-Isolo
+            Vision for Alimosho
           </h2>
           <p
             className="text-xl text-gray-300 max-w-3xl mx-auto mb-6"
@@ -102,11 +103,11 @@ export default function VisionSection() {
                 className="text-gray-200 leading-relaxed text-lg mb-6"
                 style={{ fontFamily: "Roboto, serif" }}
               >
-                To transform Oshodi-Isolo into a model local government area
-                that exemplifies excellence in governance, sustainable
-                development, and citizen engagement. We envision a community
-                where every resident has access to quality services, economic
-                opportunities, and a voice in their governance.
+                To transform Alimosho into a model local government area that
+                exemplifies excellence in governance, sustainable development,
+                and citizen engagement. We envision a community where every
+                resident has access to quality services, economic opportunities,
+                and a voice in their governance.
               </p>
 
               <div className="bg-emerald-600 bg-opacity-20 rounded-xl p-6">
@@ -153,7 +154,7 @@ export default function VisionSection() {
                   <div
                     key={index}
                     className="group bg-white bg-opacity-5 rounded-xl p-4 hover:bg-opacity-20 
-                                transition-all duration-300 transform hover:translate-x-2"
+                                       transition-all duration-300 transform hover:translate-x-2"
                   >
                     <div className="flex items-start space-x-4">
                       <div className="text-2xl group-hover:scale-110 transition-transform duration-300">
@@ -162,7 +163,7 @@ export default function VisionSection() {
                       <div className="flex-1">
                         <h4
                           className="font-bold text-white mb-2 group-hover:text-emerald-300 
-                                     transition-colors duration-300"
+                                         transition-colors duration-300"
                           style={{ fontFamily: "Montserrat, sans-serif" }}
                         >
                           {point.title}
@@ -192,11 +193,11 @@ export default function VisionSection() {
                 className="text-emerald-100 mb-6"
                 style={{ fontFamily: "Roboto, serif" }}
               >
-                Together, we can build the Oshodi-Isolo of our dreams
+                Together, we can build the Alimosho of our dreams
               </p>
               <button
                 className="px-8 py-3 bg-white text-emerald-700 font-bold rounded-full 
-                               hover:bg-gray-100 transform hover:scale-105 transition-all duration-300 shadow-lg"
+                                       hover:bg-gray-100 transform hover:scale-105 transition-all duration-300 shadow-lg"
                 style={{ fontFamily: "Montserrat, sans-serif" }}
               >
                 Get Involved

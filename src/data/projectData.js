@@ -3,7 +3,7 @@
 export const projects = [
   {
     id: 1,
-    title: "Rehabilitation of Ipaja Road Network",
+    title: "Rehabilitation of Egbeda Road Network",
     description:
       "The complete overhaul and resurfacing of major arterial roads within Oshodi-Isolo Local Government Area to improve traffic flow and reduce commute times.",
     category: "Infrastructure",
@@ -13,7 +13,7 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Ayobo-Ipaja Primary Healthcare Center Upgrade",
+    title: "Alimosho Primary Healthcare Center Upgrade",
     description:
       "Modernization of three primary healthcare centers with new medical equipment, facilities, and a digital patient management system.",
     category: "Healthcare",

@@ -5,65 +5,61 @@
 export const publicInstitutions = [
   {
     id: 1,
-    name: "Oshodi-Isolo Local Government Secretariat",
-    address: "2, Ewenla Street, Oshodi, Lagos.",
-    contact: "08012345678",
+    name: "Alimosho Local Government Secretariat",
+    address: "3, Bada Street, Akowonjo, Lagos.",
+    contact: "0816 164 5755",
   },
   {
     id: 2,
-    name: "Oshodi Primary Health Centre",
-    address: "Boladale Street, Mafoluku, Oshodi.",
-    contact: "08098765432",
+    name: "Alimosho General Hospital",
+    address: "Km 4, LASU-Isheri Express-way, General Bus Stop, Igando, Lagos.",
+    contact: "0807 559 3759",
   },
   {
     id: 3,
-    name: "Oshodi Police Station",
-    address: "Ikeja Expressway, Opposite NAFRC, Oshodi.",
-    contact: "08034567890",
+    name: "Shasha Police Station",
+    address: "Toyin Giwa Avenue, Egbeda, Alimosho, Lagos.",
+    contact: "N/A", // Specific public contact not readily available
   },
   {
     id: 4,
-    name: "Lagos State Education District VI Office",
-    address: "Abeokuta Express, Oshodi, Lagos.",
-    contact: "08011223344",
+    name: "Lagos State Education District I",
+    address:
+      "Agege Motor Road, beside NYSC Camp, Iyana-Ipaja, Alimosho, Lagos.",
+    contact: "N/A", // Specific public contact not readily available
   },
 ];
 
 export const wardsData = [
   {
-    wardName: "Mafoluku Ward",
-    councillorName: "Mr. Tunde Adewale",
-    councillorContact: "08055551111",
-    streets: [
-      "Oshodi Road",
-      "Akowonjo Street",
-      "Ewenla Street",
-      "Boladale Street",
-    ],
+    wardName: "Agbado/Oke-Odo",
+    councillorName: "Hon. Rasheed Semiu",
+    councillorContact: "N/A", // Contact not publicly available
+    streets: ["Abule-Egba", "Iyana-Ipaja", "Meiran Road", "Alagbado"],
     image: "/img/placeholderMan.webp",
   },
   {
-    wardName: "Shogunle Ward",
-    councillorName: "Mrs. Funke Adeyemi",
-    councillorContact: "08066662222",
+    wardName: "Igando/Egan",
+    councillorName: "Hon. Elizabeth Fashina",
+    councillorContact: "N/A", // Contact not publicly available
     streets: [
-      "Oladejo Street",
-      "Fatai Atere Way",
-      "Egan Street",
-      "Shogunle Road",
+      "Ikotun-Igando Road",
+      "Ijegun Road",
+      "Egan Road",
+      "Isheri-Olofin",
     ],
     image: "/img/placeholderFemale.webp",
   },
   {
-    wardName: "Orile-Oshodi Ward",
-    councillorName: "Alhaji Kunle Ahmed",
-    councillorContact: "08077773333",
+    wardName: "Shasha/Akowonjo",
+    councillorName: "Hon. Mojisola Fabusuyi Ayeni",
+    councillorContact: "N/A", // Contact not publicly available
     streets: [
-      "Ogunsanya Street",
-      "Onafunwa Street",
-      "Iyana-Ejigbo",
-      "Oke-Afa Road",
+      "Shasha Road",
+      "Akowonjo Road",
+      "Powerline Street",
+      "Orisunbare Road",
     ],
-    image: "/img/placeholderMan.webp",
+    image: "/img/placeholderFemale.webp",
   },
 ];

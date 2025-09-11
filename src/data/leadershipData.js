@@ -3,24 +3,24 @@
 // src/data/leadershipData.js
 export const leadershipTeam = [
   {
-    name: "Otunba Kehinde Oloyode Almaroof",
+    name: "Hon. Akinpelu I. Johnson",
     position: "Executive Chairman",
     department: "Office of the Chairman",
     description:
       "Leading the transformation of Ayobo-Ipaja with vision, integrity, and community-focused governance.",
     icon: "👑",
-    image: "/img/Agbaje.jpg",
+    image: "/img/johnson.jpg",
     color: "from-emerald-500 to-teal-600",
     isChairman: true,
   },
   {
-    name: "Modupe Badmus Aregbe",
+    name: "Hon Adebisi Francis",
     position: "Vice Executive Chairman",
     department: "Office of the Vice Chairman",
     description:
       "Supporting the Chairman in policy implementation and community outreach programs.",
     icon: "🤝",
-    image: "/img/placeholderFemale.webp",
+    image: "/img/viceChair.jpg",
     color: "from-blue-500 to-indigo-600",
   },
   {

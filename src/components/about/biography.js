@@ -1,4 +1,5 @@
 //src/components/about/biography.js
+
 "use client";
 
 import React from "react";
@@ -8,12 +9,7 @@ import {
   useStaggerAnimation,
 } from "../../animation/aboutAnimate";
 
-const bio = `  The conferment of the traditional title \"Otunba\" reflects
-                  the community&apos;s recognition of his leadership qualities
-                  and dedication to societal development. This honor, deeply
-                  rooted in Yoruba tradition, signifies his role as a community
-                  elder and leader who bridges the gap between traditional
-                  governance and modern democratic principles.`;
+const bio = `Akinpelu Ibrahim Johnson's approach to leadership is characterized by accessibility, transparency, and a genuine desire to improve the lives of Alimosho residents. His commitment to public service has been demonstrated through various community initiatives and development programs, earning him the trust and recognition of the people he serves.`;
 
 export default function Biography() {
   const [sectionRef, sectionStyle] = useSlideIn("up", 0);
@@ -24,8 +20,7 @@ export default function Biography() {
     {
       year: "2025",
       title: "Electoral Victory",
-      description:
-        "Won the Lagos Local Government Election for Oshodi-Isolo LGA",
+      description: "Won the Lagos Local Government Election for Alimosho LGA",
       icon: "🏆",
       color: "from-yellow-400 to-orange-500",
     },
@@ -41,7 +36,7 @@ export default function Biography() {
       year: "2020s",
       title: "Community Engagement",
       description:
-        "Active involvement in community development and social media outreach",
+        "Active involvement in community development and social outreach",
       icon: "🤝",
       color: "from-emerald-400 to-teal-500",
     },
@@ -49,7 +44,7 @@ export default function Biography() {
       year: "Earlier",
       title: "Traditional Recognition",
       description:
-        'Received the traditional title of "Otunba" recognizing his community leadership',
+        "A leader who bridges the gap between traditional and modern principles",
       icon: "👑",
       color: "from-purple-400 to-pink-500",
     },
@@ -113,14 +108,13 @@ export default function Biography() {
             className="text-4xl md:text-5xl font-bold text-gray-800 mb-4"
             style={{ fontFamily: "Montserrat, sans-serif" }}
           >
-            Biography
+            Biography of Hon. Akinpelu Ibrahim Johnson
           </h1>
           <p
             className="text-xl text-gray-600 max-w-3xl mx-auto mb-6"
             style={{ fontFamily: "Roboto, serif" }}
           >
-            The journey of a dedicated leader committed to transforming
-            Oshodi-Isolo
+            The journey of a dedicated leader committed to transforming Alimosho
           </p>
           <div className="w-24 h-1 bg-emerald-600 mx-auto rounded-full"></div>
         </div>
@@ -133,7 +127,7 @@ export default function Biography() {
                 className="text-2xl font-bold text-gray-800 mb-6"
                 style={{ fontFamily: "Montserrat, sans-serif" }}
               >
-                A Leaders&apos; Journey
+                A Leader&apos;s Journey
               </h2>
 
               <div className="prose prose-lg max-w-none">
@@ -141,11 +135,11 @@ export default function Biography() {
                   className="text-gray-700 leading-relaxed mb-6"
                   style={{ fontFamily: "Roboto, serif" }}
                 >
-                  Otunba Kehinde Oloyode Almaroof represents a new generation of
+                  Hon. Akinpelu Ibrahim Johnson represents a new generation of
                   Nigerian political leadership, combining traditional values
                   with modern governance approaches. His journey to becoming the
-                  Executive Chairman of Oshodi-Isolo Local Government Area
-                  reflects years of dedicated community service and grassroots
+                  Executive Chairman of Alimosho Local Government Area reflects
+                  years of dedicated community service and grassroots
                   engagement.
                 </p>
 
@@ -154,18 +148,17 @@ export default function Biography() {
                   style={{ fontFamily: "Roboto, serif" }}
                 >
                   Born and raised with a deep understanding of community
-                  dynamics, Almaroof has consistently demonstrated his
-                  commitment to public service through various initiatives and
-                  community engagement programs. His approach to leadership is
-                  characterized by accessibility, transparency, and a genuine
-                  desire to improve the lives of Oshodi-Isolo residents.
+                  dynamics, Johnson has consistently demonstrated his commitment
+                  to public service through various initiatives and community
+                  engagement programs. His leadership is defined by an
+                  unwavering focus on accessibility and transparency.
                 </p>
 
                 <p
                   className="text-gray-700 leading-relaxed mb-6"
                   style={{ fontFamily: "Roboto, serif" }}
                 >
-                {bio}
+                  {bio}
                 </p>
 
                 <p
@@ -174,7 +167,7 @@ export default function Biography() {
                 >
                   His victory in the 2025 Lagos Local Government Elections was
                   not just a political win, but a validation of his vision for a
-                  more inclusive, developed, and prosperous Oshodi-Isolo. His
+                  more inclusive, developed, and prosperous Alimosho. His
                   campaign was built on direct engagement with constituents,
                   leveraging both traditional community meetings and modern
                   digital platforms to reach every segment of the population.
@@ -196,7 +189,7 @@ export default function Biography() {
                   <div
                     key={index}
                     className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg 
-                                           transform hover:-translate-y-1 transition-all duration-300"
+                                         transform hover:-translate-y-1 transition-all duration-300"
                   >
                     <div className="flex items-start space-x-4">
                       <div className="text-3xl">{item.icon}</div>
@@ -243,22 +236,7 @@ export default function Biography() {
                     className="text-gray-600 text-sm"
                     style={{ fontFamily: "Roboto, serif" }}
                   >
-                    Executive Chairman, Oshodi-Isolo Local Government Area
-                  </p>
-                </div>
-
-                <div className="pb-4 border-b border-gray-200">
-                  <h4
-                    className="font-medium text-gray-800 mb-1"
-                    style={{ fontFamily: "Montserrat, sans-serif" }}
-                  >
-                    Traditional Title
-                  </h4>
-                  <p
-                    className="text-gray-600 text-sm"
-                    style={{ fontFamily: "Roboto, serif" }}
-                  >
-                    Otunba (Yoruba Chieftaincy Title)
+                    Executive Chairman, Alimosho Local Government Area
                   </p>
                 </div>
 
@@ -288,7 +266,7 @@ export default function Biography() {
                     className="text-gray-600 text-sm"
                     style={{ fontFamily: "Roboto, serif" }}
                   >
-                    Oshodi-Isolo LGA, Lagos State
+                    Alimosho LGA, Lagos State
                   </p>
                 </div>
 
@@ -338,8 +316,8 @@ export default function Biography() {
                   {/* Timeline Dot */}
                   <div
                     className={`relative z-10 w-16 h-16 rounded-full bg-gradient-to-br ${event.color} 
-                                 flex items-center justify-center shadow-lg transform hover:scale-110 
-                                 transition-transform duration-300`}
+                                     flex items-center justify-center shadow-lg transform hover:scale-110 
+                                     transition-transform duration-300`}
                   >
                     <span className="text-2xl">{event.icon}</span>
                   </div>
