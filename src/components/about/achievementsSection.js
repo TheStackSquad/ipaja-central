@@ -18,7 +18,7 @@ export default function AchievementsSection() {
     {
       title: "Electoral Victory",
       description:
-        "Successfully won the 2025 Lagos Local Government Election for Ayobo-Ipaja LCDA",
+        "Successfully won the 2025 Lagos Local Government Election for Alimosho LGA",
       icon: "🏆",
       color: "from-yellow-400 to-orange-500",
     },
@@ -32,7 +32,7 @@ export default function AchievementsSection() {
     {
       title: "Digital Innovation",
       description:
-        "Pioneered modern communication through active social media engagement",
+        "Pioneered modern communication through active digital engagement",
       icon: "📱",
       color: "from-blue-400 to-indigo-500",
     },
@@ -94,12 +94,12 @@ export default function AchievementsSection() {
             >
               <div
                 className="relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 
-                            transform hover:-translate-y-2 group overflow-hidden"
+                             transform hover:-translate-y-2 group overflow-hidden"
               >
                 {/* Background Gradient */}
                 <div
                   className={`absolute inset-0 bg-gradient-to-br ${achievement.color} opacity-0 
-                               group-hover:opacity-10 transition-opacity duration-500`}
+                                 group-hover:opacity-10 transition-opacity duration-500`}
                 ></div>
 
                 <div className="relative p-8 text-center">
@@ -111,7 +111,7 @@ export default function AchievementsSection() {
                   {/* Title */}
                   <h3
                     className="text-xl font-bold text-gray-800 mb-4 group-hover:text-emerald-700 
-                               transition-colors duration-300"
+                                 transition-colors duration-300"
                     style={{ fontFamily: "Montserrat, sans-serif" }}
                   >
                     {achievement.title}
@@ -128,7 +128,7 @@ export default function AchievementsSection() {
                   {/* Decorative Line */}
                   <div
                     className="w-16 h-1 bg-emerald-500 mx-auto mt-6 rounded-full 
-                                transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"
+                                 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"
                   ></div>
                 </div>
               </div>

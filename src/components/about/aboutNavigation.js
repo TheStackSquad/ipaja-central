@@ -51,7 +51,7 @@ export default function AboutNavigation({ activeSection, onSectionChange }) {
                 className="text-white font-bold text-lg"
                 style={{ fontFamily: "Montserrat, sans-serif" }}
               >
-                AA
+                AIJ
               </span>
             </div>
             <div>
@@ -59,7 +59,7 @@ export default function AboutNavigation({ activeSection, onSectionChange }) {
                 className="text-xl font-bold text-gray-800 group-hover:text-emerald-600 transition"
                 style={{ fontFamily: "Montserrat, sans-serif" }}
               >
-                Hon Agbaje Luqman Abiodun
+                Hon A. I Johnson
               </h1>
               <p
                 className="text-sm text-gray-600"

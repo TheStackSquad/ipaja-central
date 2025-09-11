@@ -28,7 +28,7 @@ export default function BiographySection() {
             className="text-4xl md:text-5xl font-bold text-gray-800 mb-4"
             style={{ fontFamily: "Montserrat, sans-serif" }}
           >
-            About Agbaje Luqman Abiodun
+            About Hon Akinpelu Ibrahim Johnson
           </h2>
           <div className="w-24 h-1 bg-emerald-600 mx-auto rounded-full"></div>
         </div>
@@ -37,28 +37,10 @@ export default function BiographySection() {
           {/* Image Section */}
           <div ref={imageRef} style={imageStyle} className="relative">
             <div className="relative overflow-hidden rounded-2xl shadow-2xl transform hover:scale-105 transition-all duration-500">
-              {/* Placeholder for actual image */}
-              {/* <div className="aspect-[4/5] bg-gradient-to-br from-emerald-400 via-teal-500 to-blue-600 flex items-center justify-center">
-                <div className="text-center text-white">
-                  <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-white bg-opacity-20 flex items-center justify-center">
-                    <span
-                      className="text-4xl font-bold"
-                      style={{ fontFamily: "Montserrat, sans-serif" }}
-                    >
-                      KA
-                    </span>
-                  </div>
-                  <p
-                    className="text-lg"
-                    style={{ fontFamily: "Roboto, serif" }}
-                  >
-                    Official Portrait
-                  </p>
-                </div>
-              </div> */}
+             
 
               <Image
-                src="/img/Agbaje.jpg"
+                src="/img/johnson.jpg"
                 alt="Official portrait of Agbaje Luqman"
                 width={800}
                 height={1000}
@@ -86,10 +68,10 @@ export default function BiographySection() {
                 className="text-gray-700 leading-relaxed mb-6"
                 style={{ fontFamily: "Roboto, serif" }}
               >
-                Hon Agbaje Luqman Abiodun stands as a distinguished leader
+                Hon Akinpelu Ibrahim Johnson stands as a distinguished leader
                 in Lagos State politics, having recently secured victory in the
                 2025 Lagos Local Government Election as the Executive Chairman
-                of Ayobo-Ipaja Local Government Area.
+                of Alimosho Local Government Area.
               </p>
 
               <div className="grid md:grid-cols-2 gap-4 mb-6">
@@ -104,7 +86,7 @@ export default function BiographySection() {
                     className="text-sm text-gray-600"
                     style={{ fontFamily: "Roboto, serif" }}
                   >
-                    Executive Chairman, Ayobo-Ipaja LCDA
+                    Executive Chairman, Alimosho LCDA
                   </p>
                 </div>
                 <div className="bg-white p-4 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
@@ -130,7 +112,7 @@ export default function BiographySection() {
                 Known for his active engagement with the community and strong
                 social media presence, Hon Agbaje has built a reputation as
                 an accessible and responsive leader who prioritizes direct
-                communication with the people of Oshodi-Isolo.
+                communication with the people of Alimosho.
               </p>
             </div>
 
