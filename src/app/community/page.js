@@ -96,7 +96,7 @@ export default function CommunityHub() {
         <div className="flex justify-between items-center mt-8">
           <div className="mb-3 mt-12">
             <h1 className="text-4xl font-bold mb-2 bg-gradient-to-r from-indigo-600 to-cyan-600 bg-clip-text text-transparent">
-              Oshodi Community Hub
+              Ipaja-Ayobo Community Hub
             </h1>
             <p className="text-gray-600 dark:text-gray-400">
               Your gateway to local governance and community services
