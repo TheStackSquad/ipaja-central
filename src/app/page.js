@@ -1,4 +1,4 @@
-//src/app/page.js
+// src/app/page.js
 "use client";
 
 import React, { useState, useEffect } from "react";
@@ -60,6 +60,7 @@ export default function Home() {
          linear-gradient(135deg, #e5e7eb 0%, #f3f4f6 25%, #f9fafb 50%, #fdf2f8 75%, #ffffff 100%)`,
   };
 
+
     const handleVisionClick = () => {
       console.log("Navigating to /about");
       window.location.href = "/about";
@@ -70,9 +71,11 @@ export default function Home() {
       window.location.href = "/community";
     };
 
+
   return (
     <motion.main
-      className="min-h-screen relative overflow-hidden text-gray-800 bg-gray-200 dark:text-gray-100 dark:bg-gray-800"
+      className="min-h-screen relative overflow-hidden
+      text-gray-800 bg-gray-200 dark:text-gray-100 dark:bg-gray-800"
       variants={containerVariants}
       initial="hidden"
       animate="show"
@@ -166,7 +169,10 @@ export default function Home() {
       />
 
       {/* Main content container */}
-      <div className="relative z-10 min-h-screen flex items-center justify-center py-9 px-3 bg-gray-200 dark:bg-gray-800">
+      <div
+        className="relative z-10 min-h-screen flex items-center justify-center 
+      p-4 bg-gray-200 dark:bg-gray-800"
+      >
         <motion.div
           className="max-w-6xl mx-auto"
           variants={heroCardVariants}
@@ -251,8 +257,8 @@ export default function Home() {
                       scale: 1.05,
                       borderColor: "rgba(156, 163, 175, 0.6)",
                     }}
-                    onClick={handleExploreClick}
                     whileTap={{ scale: 0.95 }}
+                    onClick={handleExploreClick}
                   >
                     Explore
                   </motion.button>
@@ -310,54 +316,3 @@ export default function Home() {
     </motion.main>
   );
 }
-
-
-// // src/app/page.js
-
-// "use client";
-
-// import MetricsContainer from "@/components/home/metricsContainer";
-// import ExecutiveCarousel from "@/components/home/executiveCarousel";
-// import CtaCard from "@/components/home/ctaCard";
-// import MarriageRegistry from "@/components/home/marriageRegistry";
-
-// export default function HomePage() {
-//   return (
-//     <main className="min-h-screen bg-slate-50 dark:bg-slate-900 p-4 md:p-8 transition-colors duration-300">
-//       <div className="max-w-7xl mx-auto min-h-screen flex flex-col md:flex-row gap-6">
-//         {/*
-//           Right Column: 30% width, for Executive Carousel and CTA
-//           This column now has `order-1` to appear first on mobile
-//         */}
-//         <div className="order-1 w-full md:w-[30%] h-full">
-//           {/* Container A - Executive Carousel + CTA */}
-//           <div className="h-full flex flex-col gap-4">
-//             <div className="flex-[0.7]">
-//               <ExecutiveCarousel />
-//             </div>
-//             <div className="flex-[0.3]">
-//               <CtaCard />
-//             </div>
-//           </div>
-//         </div>
-
-//         {/*
-//           Left Column: 70% width, for Metrics and Marriage Registry
-//           This column now has `order-2` to appear second on mobile
-//         */}
-//         <div className="order-2 flex flex-col gap-6 w-full md:w-[70%]">
-//           {/* Container B - Metrics (50% height) */}
-//           <div className="h-1/2">
-//             <MetricsContainer />
-//           </div>
-
-//           {/* Container C - Marriage Registry (remaining height) */}
-//           <div className="h-1/2 flex-1">
-//             <MarriageRegistry />
-//           </div>
-//         </div>
-//       </div>
-//     </main>
-//   );
-// }
-
