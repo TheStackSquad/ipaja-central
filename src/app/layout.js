@@ -4,11 +4,11 @@ import Header from "@/components/common/Header";
 
 export const metadata = {
   // Main SEO
-  title: "Alimosho Central | Leadership, Legacy, Progress",
+  title: "Agege LG | Leadership, Legacy, Progress",
   description:
     "Building a legacy of excellence through visionary leadership and sustainable progress. Empowering communities, fostering innovation, and creating lasting impact.",
   keywords: [
-    "Alimosho Central",
+    "Agege Government",
     "Leadership",
     "Legacy",
     "Progress",
@@ -20,11 +20,11 @@ export const metadata = {
 
   // Open Graph (for social media sharing like Facebook, LinkedIn)
   openGraph: {
-    title: "Alimosho Central | Leadership, Legacy, Progress",
+    title: "Agege LG | Leadership, Legacy, Progress",
     description:
       "Building a legacy of excellence through visionary leadership and sustainable progress. Empowering communities, fostering innovation, and creating lasting impact.",
-    url: "https://www.ipajacentral.org", // Replace with your website URL
-    siteName: "Ipaja Central",
+    url: "https://www.agegecentral.org", // Replace with your website URL
+    siteName: "Agege Central",
     images: [
       {
         url: "https://www.ipajacentral.org/og-image.jpg", // Replace with a high-quality image URL
@@ -40,7 +40,7 @@ export const metadata = {
   // Twitter Card (for Twitter sharing)
   twitter: {
     card: "summary_large_image",
-    title: "Alimosho Central | Leadership, Legacy, Progress",
+    title: "Agege Central | Leadership, Legacy, Progress",
     description:
       "Building a legacy of excellence through visionary leadership and sustainable progress. Empowering communities, fostering innovation, and creating lasting impact.",
     images: ["https://www.ipajacentral.org/twitter-image.jpg"], // Replace with a high-quality image URL

@@ -3,13 +3,13 @@
 // src/data/leadershipData.js
 export const leadershipTeam = [
   {
-    name: "Hon. Akinpelu I. Johnson",
+    name: "Hon. Babatunde Azeez",
     position: "Executive Chairman",
     department: "Office of the Chairman",
     description:
       "Leading the transformation of Ayobo-Ipaja with vision, integrity, and community-focused governance.",
     icon: "👑",
-    image: "/img/johnson.jpg",
+    image: "/img/chairr.jpg",
     color: "from-emerald-500 to-teal-600",
     isChairman: true,
   },
@@ -20,7 +20,7 @@ export const leadershipTeam = [
     description:
       "Supporting the Chairman in policy implementation and community outreach programs.",
     icon: "🤝",
-    image: "/img/viceChair.jpg",
+    image: "/img/vinod.jpg",
     color: "from-blue-500 to-indigo-600",
   },
   {

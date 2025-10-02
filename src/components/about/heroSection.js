@@ -39,20 +39,15 @@ export default function HeroSection() {
             className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-4"
             style={{ fontFamily: "Montserrat, sans-serif" }}
           >
-            HON. AKINPELU
+            HON. BABATUNDE
           </h1>
           <h2
             className="text-4xl md:text-6xl lg:text-7xl font-bold text-purple-300 mb-2"
             style={{ fontFamily: "Montserrat, sans-serif" }}
           >
-            IBRAHIM
+            AZEEZ
           </h2>
-          <h3
-            className="text-3xl md:text-5xl lg:text-6xl font-bold text-pink-200"
-            style={{ fontFamily: "Montserrat, sans-serif" }}
-          >
-            JOHNSON
-          </h3>
+
         </div>
 
         {/* Subtitle */}
@@ -61,7 +56,7 @@ export default function HeroSection() {
             className="text-xl md:text-2xl lg:text-3xl text-gray-200 mb-8 mt-8"
             style={{ fontFamily: "Roboto, serif" }}
           >
-            Executive Chairman, Alimosho Local Government Area
+            Executive Chairman, Agege Local Government Area
           </p>
         </div>
 
@@ -72,7 +67,7 @@ export default function HeroSection() {
             style={{ fontFamily: "Roboto, serif" }}
           >
             A dedicated leader driving innovative governance and sustainable
-            development to create a brighter future for the Alimosho community.
+            development to create a brighter future for the Agege community.
           </p>
         </div>
 

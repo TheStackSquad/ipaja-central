@@ -28,7 +28,7 @@ export default function BiographySection() {
             className="text-4xl md:text-5xl font-bold text-gray-800 mb-4"
             style={{ fontFamily: "Montserrat, sans-serif" }}
           >
-            About Hon Akinpelu Ibrahim Johnson
+            About Hon Babatunde Azeez
           </h2>
           <div className="w-24 h-1 bg-emerald-600 mx-auto rounded-full"></div>
         </div>
@@ -37,8 +37,6 @@ export default function BiographySection() {
           {/* Image Section */}
           <div ref={imageRef} style={imageStyle} className="relative">
             <div className="relative overflow-hidden rounded-2xl shadow-2xl transform hover:scale-105 transition-all duration-500">
-             
-
               <Image
                 src="/img/johnson.jpg"
                 alt="Official portrait of Agbaje Luqman"
@@ -68,10 +66,10 @@ export default function BiographySection() {
                 className="text-gray-700 leading-relaxed mb-6"
                 style={{ fontFamily: "Roboto, serif" }}
               >
-                Hon Akinpelu Ibrahim Johnson stands as a distinguished leader
-                in Lagos State politics, having recently secured victory in the
-                2025 Lagos Local Government Election as the Executive Chairman
-                of Alimosho Local Government Area.
+                Hon Babatunde Azeez stands as a distinguished leader in Lagos
+                State politics, having recently secured victory in the 2025
+                Lagos Local Government Election as the Executive Chairman of
+                Agege Local Government Area.
               </p>
 
               <div className="grid md:grid-cols-2 gap-4 mb-6">
@@ -86,7 +84,7 @@ export default function BiographySection() {
                     className="text-sm text-gray-600"
                     style={{ fontFamily: "Roboto, serif" }}
                   >
-                    Executive Chairman, Alimosho LCDA
+                    Executive Chairman, Agege LCDA
                   </p>
                 </div>
                 <div className="bg-white p-4 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
@@ -110,9 +108,9 @@ export default function BiographySection() {
                 style={{ fontFamily: "Roboto, serif" }}
               >
                 Known for his active engagement with the community and strong
-                social media presence, Hon Agbaje has built a reputation as
-                an accessible and responsive leader who prioritizes direct
-                communication with the people of Alimosho.
+                social media presence, Hon Babatunde Azeez has built a
+                reputation as an accessible and responsive leader who
+                prioritizes direct communication with the people of Agege.
               </p>
             </div>
 

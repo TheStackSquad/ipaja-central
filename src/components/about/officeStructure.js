@@ -13,7 +13,7 @@ export default function OfficeStructure() {
   const organizationStructure = {
     executive: {
       title: "Executive Office",
-      head: "Hon Agbaje Luqman Abiodun",
+      head: "Hon Babatunde Azeez",
       position: "Executive Chairman",
       members: 5,
       color: "from-indigo-500 to-teal-600",
@@ -21,7 +21,7 @@ export default function OfficeStructure() {
       departments: [
         {
           name: "Office of the Chairman",
-          head: "Hon Agbaje Luqman Abiodun",
+          head: "Hon Babatunde Azeez",
           staff: 3,
         },
         {

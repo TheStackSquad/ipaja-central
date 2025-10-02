@@ -203,7 +203,7 @@ export default function Home() {
                     textShadow: "0 0 30px rgba(59, 130, 246, 0.3)",
                   }}
                 >
-                  Ipaja Central
+                  Agege Central
                 </motion.h1>
 
                 {/* Subtitle */}
@@ -296,7 +296,7 @@ export default function Home() {
             <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse dark:bg-green-300"></div>
             <span>System Online</span>
           </div>
-          <div>Iyana-Ipaja, Lagos | 6.64° N, 3.28° E</div>
+          <div>Agege, Lagos | 6.64° N, 3.28° E</div>
         </div>
       </motion.div>
     </motion.main>

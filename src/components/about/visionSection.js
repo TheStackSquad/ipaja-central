@@ -76,7 +76,7 @@ export default function VisionSection() {
             className="text-4xl md:text-5xl font-bold text-white mb-4"
             style={{ fontFamily: "Montserrat, sans-serif" }}
           >
-            Vision for Ayobo-Ipaja
+            Vision for Agege
           </h2>
           <p
             className="text-xl text-gray-300 max-w-3xl mx-auto mb-6"
@@ -102,7 +102,7 @@ export default function VisionSection() {
                 className="text-gray-200 leading-relaxed text-lg mb-6"
                 style={{ fontFamily: "Roboto, serif" }}
               >
-                To transform Ayobo - Ipaja into a model local government area
+                To transform Agege into a model local government area
                 that exemplifies excellence in governance, sustainable
                 development, and citizen engagement. We envision a community
                 where every resident has access to quality services, economic
@@ -192,7 +192,7 @@ export default function VisionSection() {
                 className="text-emerald-100 mb-6"
                 style={{ fontFamily: "Roboto, serif" }}
               >
-                Together, we can build the Ayobo - Ipaja of our dreams
+                Together, we can build the Agege of our dreams
               </p>
               <button
                 className="px-8 py-3 bg-white text-emerald-700 font-bold rounded-full 

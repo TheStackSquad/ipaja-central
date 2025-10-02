@@ -3,21 +3,21 @@
 export const carouselItems = [
   {
     type: "executive",
-    title: "Hon. Akinpelu Ibrahim Johnson",
+    title: "Hon. Babatunde Azeez",
     subtitle: "Executive Chairman",
     description:
       "Leading Alimosho LGA with vision and dedication to community development",
-    image: "/img/johnson.jpg",
+    image: "/img/chairr.jpg",
     date: null,
     category: "Leadership",
   },
   {
     type: "executive",
-    title: "Hon. Francis Adebisi",
+    title: "Hon. Vinod Obasa",
     subtitle: "Vice Chairman",
     description:
       "Supporting administrative excellence and citizen welfare initiatives",
-    image: "/img/viceChair.jpg",
+    image: "/img/vinod.jpg",
     date: null,
     category: "Leadership",
   },
@@ -81,4 +81,4 @@ export const carouselItems = [
     date: "2025-09-08",
     category: "Environmental",
   },
-]
+];

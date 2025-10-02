@@ -108,7 +108,7 @@ export default function Biography() {
             className="text-4xl md:text-5xl font-bold text-gray-800 mb-4"
             style={{ fontFamily: "Montserrat, sans-serif" }}
           >
-            Biography of Hon. Akinpelu Ibrahim Johnson
+            Biography of Hon. Babatunde Azeez
           </h1>
           <p
             className="text-xl text-gray-600 max-w-3xl mx-auto mb-6"
@@ -135,10 +135,10 @@ export default function Biography() {
                   className="text-gray-700 leading-relaxed mb-6"
                   style={{ fontFamily: "Roboto, serif" }}
                 >
-                  Hon. Akinpelu Ibrahim Johnson represents a new generation of
+                  Hon. Babatunde Azeez Johnson represents a new generation of
                   Nigerian political leadership, combining traditional values
                   with modern governance approaches. His journey to becoming the
-                  Executive Chairman of Alimosho Local Government Area reflects
+                  Executive Chairman of Agege Local Government Area reflects
                   years of dedicated community service and grassroots
                   engagement.
                 </p>
@@ -148,9 +148,9 @@ export default function Biography() {
                   style={{ fontFamily: "Roboto, serif" }}
                 >
                   Born and raised with a deep understanding of community
-                  dynamics, Johnson has consistently demonstrated his commitment
-                  to public service through various initiatives and community
-                  engagement programs. His leadership is defined by an
+                  dynamics, Babatunde Azeez has consistently demonstrated his
+                  commitment to public service through various initiatives and
+                  community engagement programs. His leadership is defined by an
                   unwavering focus on accessibility and transparency.
                 </p>
 
@@ -167,7 +167,7 @@ export default function Biography() {
                 >
                   His victory in the 2025 Lagos Local Government Elections was
                   not just a political win, but a validation of his vision for a
-                  more inclusive, developed, and prosperous Alimosho. His
+                  more inclusive, developed, and prosperous Agege. His
                   campaign was built on direct engagement with constituents,
                   leveraging both traditional community meetings and modern
                   digital platforms to reach every segment of the population.
@@ -236,7 +236,7 @@ export default function Biography() {
                     className="text-gray-600 text-sm"
                     style={{ fontFamily: "Roboto, serif" }}
                   >
-                    Executive Chairman, Alimosho Local Government Area
+                    Executive Chairman, Agege Local Government Area
                   </p>
                 </div>
 
@@ -266,7 +266,7 @@ export default function Biography() {
                     className="text-gray-600 text-sm"
                     style={{ fontFamily: "Roboto, serif" }}
                   >
-                    Alimosho LGA, Lagos State
+                    Agege LGA, Lagos State
                   </p>
                 </div>
 
