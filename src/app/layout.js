@@ -1,4 +1,4 @@
-// app/layout.jsx
+// app/layout.js
 import "./globals.css";
 import Header from "@/components/common/Header";
 
