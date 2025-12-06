@@ -54,7 +54,7 @@ const NewsTrending = () => {
                 className="text-base sm:text-lg text-gray-600 dark:text-gray-300 mb-6 sm:mb-8 leading-relaxed"
                 style={{ fontFamily: "Roboto, sans-serif" }}
               >
-                Explore the latest and most talked-about topics in Oshodi-Isolo
+                Explore the latest and most talked-about topics in Ipaja-Ayobo
                 Local Government.
               </p>
 

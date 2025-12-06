@@ -243,10 +243,10 @@ const ContactPage = () => {
                 Visit Us
               </h3>
               <p className="text-gray-600 dark:text-gray-300">
-                Oshodi Local Government
+                Ipaja Ayobo Local Government
               </p>
               <p className="text-gray-600 dark:text-gray-300">
-                Secretariat, Oshodi
+                Secretariat, Ayobo
               </p>
               <p className="text-gray-600 dark:text-gray-300">
                 Lagos State, Nigeria

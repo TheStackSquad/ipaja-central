@@ -4,28 +4,28 @@ export const contactData = {
   executive: {
     title: "Executive Branch",
     description:
-      "Leadership and administrative officials of Alimosho Local Government Area (LGA).",
+      "Leadership and administrative officials of Ipaja Ayobo Local Government Area (LGA).",
     contacts: [
       {
         id: 1,
-        name: "Hon. Akinpelu Johnson",
+        name: "Hon. Abiodun Agbaje",
         position: "Executive Chairman",
         department: "Office of the Chairman",
         phone: "+234 803 555 0101", // Mock phone number
         email: "chairman@alimosho-lg.gov.ng", // Mock email
-        address: "Alimosho Local Government Secretariat, Akowonjo, Lagos.",
-        image: "/img/johnson.jpg",
+        address: "Ipaja Ayobo Local Government Secretariat, Ayobo, Lagos.",
+        image: "/img/AA.jpg",
         bio: "Serving as the Executive Chairman of Alimosho Local Government, focused on community development and good governance.",
       },
       {
         id: 2,
-        name: "Hon Adebisi Francis",
+        name: "Hon Jimoh",
         position: "Vice Chairman",
         department: "Office of the Vice Chairman",
         phone: "+234 803 555 0102", // Mock phone number
         email: "vicechairman@alimosho-lg.gov.ng", // Mock email
-        address: "Alimosho Local Government Secretariat, Akowonjo, Lagos.",
-        image: "/img/viceChair.jpg",
+        address: "Ipaja Ayobo Local Government Secretariat, Ayobo, Lagos.",
+        image: "/img/placeholderMan.webp",
         bio: "Deputy to the Executive Chairman, actively involved in community development and administrative support.",
       },
       {
@@ -35,7 +35,7 @@ export const contactData = {
         department: "Administrative Office",
         phone: "+234 803 555 0103", // Mock phone number
         email: "slg@alimosho-lg.gov.ng", // Mock email
-        address: "Alimosho Local Government Secretariat, Akowonjo, Lagos.",
+        address: "Ipaja Ayobo Local Government Secretariat, Ayobo, Lagos.",
         image: "/img/placeholderMan.webp",
         bio: "Chief Administrative Officer responsible for coordinating government business and policy implementation.",
       },
@@ -46,7 +46,7 @@ export const contactData = {
         department: "Finance Department",
         phone: "+234 803 555 0104", // Mock phone number
         email: "treasurer@alimosho-lg.gov.ng", // Mock email
-        address: "Alimosho Local Government Secretariat, Akowonjo, Lagos.",
+        address: "Ipaja Ayobo Local Government Secretariat, Ayobo, Lagos.",
         image: "/img/placeholderFemale.webp",
         bio: "Managing the financial affairs and budget implementation of the local government.",
       },
@@ -57,7 +57,7 @@ export const contactData = {
         department: "Human Resources",
         phone: "+234 803 555 0105", // Mock phone number
         email: "hoa@alimosho-lg.gov.ng", // Mock email
-        address: "Alimosho Local Government Secretariat, Akowonjo, Lagos.",
+        address: "Ipaja Ayobo Local Government Secretariat, Ayobo, Lagos.",
         image: "/img/placeholderMan.webp",
         bio: "Overseeing administrative functions and human resource management within the local government.",
       },
@@ -76,7 +76,7 @@ export const contactData = {
         ward: "Akowonjo Ward",
         phone: "+234 803 555 0106", // Mock phone number
         email: "leader.house@alimosho-lg.gov.ng", // Mock email
-        address: "Alimosho Legislative Assembly, Lagos State",
+        address: "Ipaja Ayobo Local Government Secretariat, Ayobo, Lagos.",
         image: "/img/placeholderMan.webp",
         bio: "Leading the legislative assembly and representing Akowonjo Ward in policy making.",
       },
@@ -88,7 +88,7 @@ export const contactData = {
         ward: "Egbeda Ward",
         phone: "+234 803 555 0107", // Mock phone number
         email: "deputyleader.house@alimosho-lg.gov.ng", // Mock email
-        address: "Alimosho Legislative Assembly, Lagos State",
+        address: "Ipaja Ayobo Local Government Secretariat, Ayobo, Lagos.",
         image: "/img/placeholderFemale.webp",
         bio: "Deputy Leader of the assembly, championing community development in Egbeda Ward.",
       },
@@ -100,7 +100,7 @@ export const contactData = {
         ward: "Shasha Ward",
         phone: "+234 803 555 0108", // Mock phone number
         email: "councilor.shasha@alimosho-lg.gov.ng", // Mock email
-        address: "Alimosho Legislative Assembly, Lagos State",
+        address: "Ipaja Ayobo Local Government Secretariat, Ayobo, Lagos.",
         image: "/img/placeholderMan.webp",
         bio: "Representing the interests of Shasha Ward constituents in infrastructure and development.",
       },
@@ -112,7 +112,7 @@ export const contactData = {
         ward: "Ikotun Ward",
         phone: "+234 803 555 0109", // Mock phone number
         email: "councilor.ikotun@alimosho-lg.gov.ng", // Mock email
-        address: "Alimosho Legislative Assembly, Lagos State",
+        address: "Ipaja Ayobo Local Government Secretariat, Ayobo, Lagos.",
         image: "/img/placeholderFemale.webp",
         bio: "Ward representative focusing on education and youth initiatives in Ikotun.",
       },
@@ -124,7 +124,7 @@ export const contactData = {
         ward: "Idimu Ward",
         phone: "+234 803 555 0110", // Mock phone number
         email: "councilor.idimu@alimosho-lg.gov.ng", // Mock email
-        address: "Alimosho Legislative Assembly, Lagos State",
+        address: "Ipaja Ayobo Local Government Secretariat, Ayobo, Lagos.",
         image: "/img/placeholderMan.webp",
         bio: "Advocating for Idimu Ward residents in environmental and sanitation matters.",
       },
@@ -136,7 +136,7 @@ export const contactData = {
         ward: "Isheri-Olofin Ward",
         phone: "+234 803 555 0111", // Mock phone number
         email: "councilor.isheri@alimosho-lg.gov.ng", // Mock email
-        address: "Alimosho Legislative Assembly, Lagos State",
+        address: "Ipaja Ayobo Local Government Secretariat, Ayobo, Lagos.",
         image: "/img/placeholderFemale.webp",
         bio: "Isheri-Olofin Ward representative working on transportation and road infrastructure.",
       },
@@ -148,7 +148,7 @@ export const contactData = {
         ward: "Igando Ward",
         phone: "+234 803 555 0112", // Mock phone number
         email: "councilor.igando@alimosho-lg.gov.ng", // Mock email
-        address: "Alimosho Legislative Assembly, Lagos State",
+        address: "Ipaja Ayobo Local Government Secretariat, Ayobo, Lagos.",
         image: "/img/placeholderMan.webp",
         bio: "Serving Igando Ward with focus on small business development and market improvement.",
       },
@@ -217,7 +217,7 @@ export const quickContacts = [
   {
     id: "emergency",
     title: "Emergency Line",
-    number: "+234 700 ALIMOSHO (674634)",
+    number: "+234 700 AYOBO (674634)",
     icon: "phone",
     available: "24/7",
   },

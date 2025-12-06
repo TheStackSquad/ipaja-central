@@ -28,7 +28,7 @@ export default function BiographySection() {
             className="text-4xl md:text-5xl font-bold text-gray-800 mb-4"
             style={{ fontFamily: "Montserrat, sans-serif" }}
           >
-            About Hon Babatunde Azeez
+            About Hon Abiodun Agbaje
           </h2>
           <div className="w-24 h-1 bg-emerald-600 mx-auto rounded-full"></div>
         </div>
@@ -66,10 +66,10 @@ export default function BiographySection() {
                 className="text-gray-700 leading-relaxed mb-6"
                 style={{ fontFamily: "Roboto, serif" }}
               >
-                Hon Babatunde Azeez stands as a distinguished leader in Lagos
+                Hon Abiodun Agbaje stands as a distinguished leader in Lagos
                 State politics, having recently secured victory in the 2025
                 Lagos Local Government Election as the Executive Chairman of
-                Agege Local Government Area.
+                Ipaja Ayobo Local Government Area.
               </p>
 
               <div className="grid md:grid-cols-2 gap-4 mb-6">
@@ -84,7 +84,7 @@ export default function BiographySection() {
                     className="text-sm text-gray-600"
                     style={{ fontFamily: "Roboto, serif" }}
                   >
-                    Executive Chairman, Agege LCDA
+                    Executive Chairman, Ipaja Ayobo LCDA
                   </p>
                 </div>
                 <div className="bg-white p-4 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
@@ -108,9 +108,9 @@ export default function BiographySection() {
                 style={{ fontFamily: "Roboto, serif" }}
               >
                 Known for his active engagement with the community and strong
-                social media presence, Hon Babatunde Azeez has built a
-                reputation as an accessible and responsive leader who
-                prioritizes direct communication with the people of Agege.
+                social media presence, Hon Abiodun Agbaje has built a reputation
+                as an accessible and responsive leader who prioritizes direct
+                communication with the people of Ipaja - Ayobo.
               </p>
             </div>
 

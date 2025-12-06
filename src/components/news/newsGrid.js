@@ -8,8 +8,8 @@ import NewsCard from "@/components/news/newsCard";
 const NewsGrid = ({
   articles = [],
   // Set defaults for the main news section
-  title = "Oshodi Local Government News",
-  description = "Stay updated with the latest developments, projects, and initiatives from Oshodi Local Government",
+  title = "Ipaja Ayobo Local Government News",
+  description = "Stay updated with the latest developments, projects, and initiatives from Ipaja Ayobo Local Government",
 }) => {
   // articles is already the filtered list provided by the parent (server component)
   const displayArticles = articles;

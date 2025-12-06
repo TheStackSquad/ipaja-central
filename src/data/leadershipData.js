@@ -3,18 +3,18 @@
 // src/data/leadershipData.js
 export const leadershipTeam = [
   {
-    name: "Hon. Babatunde Azeez",
+    name: "Hon. Abiodun Agbaje",
     position: "Executive Chairman",
     department: "Office of the Chairman",
     description:
       "Leading the transformation of Ayobo-Ipaja with vision, integrity, and community-focused governance.",
     icon: "👑",
-    image: "/img/chairr.jpg",
+    image: "/img/AA.jpg",
     color: "from-emerald-500 to-teal-600",
     isChairman: true,
   },
   {
-    name: "Hon Adebisi Francis",
+    name: "Hon Akionla Jimoh",
     position: "Vice Executive Chairman",
     department: "Office of the Vice Chairman",
     description:

@@ -9,7 +9,10 @@ import {
   useStaggerAnimation,
 } from "../../animation/aboutAnimate";
 
-const bio = `Akinpelu Ibrahim Johnson's approach to leadership is characterized by accessibility, transparency, and a genuine desire to improve the lives of Alimosho residents. His commitment to public service has been demonstrated through various community initiatives and development programs, earning him the trust and recognition of the people he serves.`;
+const bio = `Hon Abiodun Agbaje's approach to leadership is characterized by accessibility,
+transparency, and a genuine desire to improve the lives of Ayobo residents.
+His commitment to public service has been demonstrated through various community
+initiatives and development programs, earning him the trust and recognition of the people he serves.`;
 
 export default function Biography() {
   const [sectionRef, sectionStyle] = useSlideIn("up", 0);
@@ -20,7 +23,7 @@ export default function Biography() {
     {
       year: "2025",
       title: "Electoral Victory",
-      description: "Won the Lagos Local Government Election for Alimosho LGA",
+      description: "Won the Lagos Local Government Election for Ipaja Ayobo LGA",
       icon: "🏆",
       color: "from-yellow-400 to-orange-500",
     },
@@ -108,13 +111,14 @@ export default function Biography() {
             className="text-4xl md:text-5xl font-bold text-gray-800 mb-4"
             style={{ fontFamily: "Montserrat, sans-serif" }}
           >
-            Biography of Hon. Babatunde Azeez
+            Biography of Hon. Abiodun Agbaje
           </h1>
           <p
             className="text-xl text-gray-600 max-w-3xl mx-auto mb-6"
             style={{ fontFamily: "Roboto, serif" }}
           >
-            The journey of a dedicated leader committed to transforming Alimosho
+            The journey of a dedicated leader committed to transforming Ipaja -
+            Ayobo
           </p>
           <div className="w-24 h-1 bg-emerald-600 mx-auto rounded-full"></div>
         </div>
@@ -135,12 +139,11 @@ export default function Biography() {
                   className="text-gray-700 leading-relaxed mb-6"
                   style={{ fontFamily: "Roboto, serif" }}
                 >
-                  Hon. Babatunde Azeez Johnson represents a new generation of
-                  Nigerian political leadership, combining traditional values
-                  with modern governance approaches. His journey to becoming the
-                  Executive Chairman of Agege Local Government Area reflects
-                  years of dedicated community service and grassroots
-                  engagement.
+                  Hon. Abiodun Agbaje represents a new generation of Nigerian
+                  political leadership, combining traditional values with modern
+                  governance approaches. His journey to becoming the Executive
+                  Chairman of Ipaja - Ayobo Local Government Area reflects years
+                  of dedicated community service and grassroots engagement.
                 </p>
 
                 <p
@@ -148,7 +151,7 @@ export default function Biography() {
                   style={{ fontFamily: "Roboto, serif" }}
                 >
                   Born and raised with a deep understanding of community
-                  dynamics, Babatunde Azeez has consistently demonstrated his
+                  dynamics, Abiodun Agbaje has consistently demonstrated his
                   commitment to public service through various initiatives and
                   community engagement programs. His leadership is defined by an
                   unwavering focus on accessibility and transparency.
@@ -167,10 +170,10 @@ export default function Biography() {
                 >
                   His victory in the 2025 Lagos Local Government Elections was
                   not just a political win, but a validation of his vision for a
-                  more inclusive, developed, and prosperous Agege. His
-                  campaign was built on direct engagement with constituents,
-                  leveraging both traditional community meetings and modern
-                  digital platforms to reach every segment of the population.
+                  more inclusive, developed, and prosperous Ipaja Ayobo. His campaign
+                  was built on direct engagement with constituents, leveraging
+                  both traditional community meetings and modern digital
+                  platforms to reach every segment of the population.
                 </p>
               </div>
             </div>
@@ -236,7 +239,7 @@ export default function Biography() {
                     className="text-gray-600 text-sm"
                     style={{ fontFamily: "Roboto, serif" }}
                   >
-                    Executive Chairman, Agege Local Government Area
+                    Executive Chairman, Ipaja Ayobo Local Government Area
                   </p>
                 </div>
 
@@ -266,7 +269,7 @@ export default function Biography() {
                     className="text-gray-600 text-sm"
                     style={{ fontFamily: "Roboto, serif" }}
                   >
-                    Agege LGA, Lagos State
+                    Ipaja Ayobo LGA, Lagos State
                   </p>
                 </div>
 

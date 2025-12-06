@@ -39,13 +39,13 @@ export default function HeroSection() {
             className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-4"
             style={{ fontFamily: "Montserrat, sans-serif" }}
           >
-            HON. BABATUNDE
+            HON. ABIODUN
           </h1>
           <h2
             className="text-4xl md:text-6xl lg:text-7xl font-bold text-purple-300 mb-2"
             style={{ fontFamily: "Montserrat, sans-serif" }}
           >
-            AZEEZ
+            AGBAJE
           </h2>
 
         </div>
@@ -56,7 +56,7 @@ export default function HeroSection() {
             className="text-xl md:text-2xl lg:text-3xl text-gray-200 mb-8 mt-8"
             style={{ fontFamily: "Roboto, serif" }}
           >
-            Executive Chairman, Agege Local Government Area
+            Executive Chairman, Ipaja Ayobo Local Government Area
           </p>
         </div>
 
@@ -67,7 +67,7 @@ export default function HeroSection() {
             style={{ fontFamily: "Roboto, serif" }}
           >
             A dedicated leader driving innovative governance and sustainable
-            development to create a brighter future for the Agege community.
+            development to create a brighter future for the Ipaja Ayobo community.
           </p>
         </div>
 
