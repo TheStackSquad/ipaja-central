@@ -60,6 +60,18 @@ export default function Home() {
          linear-gradient(135deg, #e5e7eb 0%, #f3f4f6 25%, #f9fafb 50%, #fdf2f8 75%, #ffffff 100%)`,
   };
 
+
+    const handleVisionClick = () => {
+      console.log("Navigating to /about");
+      window.location.href = "/about";
+    };
+
+    const handleExploreClick = () => {
+      console.log("Navigating to /community");
+      window.location.href = "/community";
+    };
+
+
   return (
     <motion.main
       className="min-h-screen relative overflow-hidden px-6
@@ -233,6 +245,7 @@ export default function Home() {
                     variants={buttonVariants}
                     whileHover="hover"
                     whileTap="tap"
+                    onClick={handleVisionClick}
                   >
                     Our Vision
                   </motion.button>
@@ -245,6 +258,7 @@ export default function Home() {
                       borderColor: "rgba(156, 163, 175, 0.6)",
                     }}
                     whileTap={{ scale: 0.95 }}
+                    onClick={handleExploreClick}
                   >
                     Explore
                   </motion.button>
@@ -302,7 +316,3 @@ export default function Home() {
     </motion.main>
   );
 }
-
-
-
-

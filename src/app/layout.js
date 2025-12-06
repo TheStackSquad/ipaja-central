@@ -1,14 +1,14 @@
-// app/layout.jsx
+// app/layout.js
 import "./globals.css";
 import Header from "@/components/common/Header";
 
 export const metadata = {
   // Main SEO
-  title: "Ipaja-Ayobo LG | Leadership, Legacy, Progress",
+  title: "Ipaja Central | Leadership, Legacy, Progress",
   description:
     "Building a legacy of excellence through visionary leadership and sustainable progress. Empowering communities, fostering innovation, and creating lasting impact.",
   keywords: [
-    "Ipaja-Ayobo Government",
+    "Ipaja Central",
     "Leadership",
     "Legacy",
     "Progress",
@@ -16,14 +16,14 @@ export const metadata = {
     "Lagos",
     "Nigeria",
   ],
-  authors: [{ name: "Your Name or Organization" }],
+  authors: [{ name: "Stacc Sessions" }],
 
   // Open Graph (for social media sharing like Facebook, LinkedIn)
   openGraph: {
-    title: "Ipaja-Ayobo LG | Leadership, Legacy, Progress",
+    title: "Ipaja Central | Leadership, Legacy, Progress",
     description:
       "Building a legacy of excellence through visionary leadership and sustainable progress. Empowering communities, fostering innovation, and creating lasting impact.",
-    url: "https://www.ipajacentral.org", // Replace with your website URL
+    url: "https://ipaja-central.vercel.app/",
     siteName: "Ipaja Central",
     images: [
       {
