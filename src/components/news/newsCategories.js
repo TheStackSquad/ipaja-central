@@ -1,15 +1,12 @@
 // src/components/news/newsCategories.js
-
 "use client";
 
 import { useSlideIn, useStaggerAnimation } from "@/animation/aboutAnimate";
-import { useRouter, usePathname, useSearchParams } from "next/navigation"; // Import routing hooks
-import { allNewsArticles } from "@/data/index"; // Import all articles to calculate categories
+import { useRouter, usePathname } from "next/navigation";
+import { allNewsArticles } from "@/data/index";
 
 /**
- * Utility to calculate categories and their counts dynamically from the data.
- * This function should ideally be done server-side, but must be here since
- * it's used within a client component for the button map.
+ * Calculate categories and counts from data
  */
 const getCategoriesWithCounts = () => {
   const categoryMap = allNewsArticles.reduce((acc, article) => {
@@ -18,7 +15,6 @@ const getCategoriesWithCounts = () => {
     return acc;
   }, {});
 
-  // Convert map to array and ensure 'All' is first
   const dynamicCategories = Object.keys(categoryMap).map((name) => ({
     name,
     count: categoryMap[name],
@@ -29,11 +25,10 @@ const getCategoriesWithCounts = () => {
 
   return [
     { name: "All", icon: "📰", count: totalCount },
-    ...dynamicCategories.filter((c) => c.name !== "All"), // Filter out any duplicate 'All' if it somehow existed
+    ...dynamicCategories.filter((c) => c.name !== "All"),
   ];
 };
 
-// Helper function for icons (you can expand this with lucide-react if available)
 const getCategoryIcon = (category) => {
   switch (category) {
     case "Technology":
@@ -51,52 +46,35 @@ const getCategoryIcon = (category) => {
     case "Sports":
       return "⚽";
     default:
-      return "💡"; // Default icon for unknown categories
+      return "💡";
   }
 };
 
 /**
- * Client component for navigating news categories by updating the URL query parameter.
- * @param {string} activeCategory - The currently active category from the URL search params.
+ * NewsCategories - receives activeCategory as prop (no useSearchParams)
  */
 const NewsCategories = ({ activeCategory }) => {
   const router = useRouter();
   const pathname = usePathname();
-  const searchParams = useSearchParams();
-
-  // Use the dynamic data source
   const categories = getCategoriesWithCounts();
 
-  // Animation hooks (kept client-side for visual effect)
   const [titleRef, titleStyle] = useSlideIn("up", 200);
-  // Adjusted useStaggerAnimation count dynamically
   const [categoriesRef, visibleItems] = useStaggerAnimation(
     categories.length,
     100
   );
 
-  /**
-   * Updates the URL search parameter 'category'.
-   * Navigating to /news?category=Technology automatically triggers the Server Component re-render.
-   * @param {string} categoryName The name of the category to filter by.
-   */
   const handleCategoryClick = (categoryName) => {
-    const newParams = new URLSearchParams(searchParams);
-
     if (categoryName === "All") {
-      newParams.delete("category"); // Remove parameter for 'All' to keep URL clean
+      router.push(pathname, { scroll: false });
     } else {
-      newParams.set("category", categoryName);
+      router.push(`${pathname}?category=${categoryName}`, { scroll: false });
     }
-
-    // Use shallow routing for a smoother feel, though the server component will still re-fetch
-    router.push(`${pathname}?${newParams.toString()}`, { scroll: false });
   };
 
   return (
     <section className="py-16 bg-white dark:bg-gray-800 transition-colors duration-500">
       <div className="max-w-7xl mx-auto px-6">
-        {/* Section Title */}
         <div ref={titleRef} style={titleStyle} className="text-center mb-12">
           <h2
             className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4"
@@ -112,7 +90,6 @@ const NewsCategories = ({ activeCategory }) => {
           </p>
         </div>
 
-        {/* Categories Grid */}
         <div
           ref={categoriesRef}
           className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-4"
@@ -132,7 +109,6 @@ const NewsCategories = ({ activeCategory }) => {
                   : "bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600"
               }`}
             >
-              {/* Background Effect */}
               <div
                 className={`absolute inset-0 rounded-2xl opacity-0 transition-opacity duration-300 ${
                   activeCategory !== category.name &&
@@ -140,7 +116,6 @@ const NewsCategories = ({ activeCategory }) => {
                 }`}
               />
 
-              {/* Content */}
               <div className="relative z-10 flex flex-col items-center justify-center h-full">
                 <div
                   className={`text-2xl sm:text-3xl mb-3 transform transition-transform duration-300 ${
@@ -169,7 +144,6 @@ const NewsCategories = ({ activeCategory }) => {
                 </span>
               </div>
 
-              {/* Active Indicator */}
               {activeCategory === category.name && (
                 <div className="absolute -top-2 -right-2 w-5 h-5 sm:w-6 sm:h-6 bg-yellow-400 rounded-full flex items-center justify-center shadow-md">
                   <svg

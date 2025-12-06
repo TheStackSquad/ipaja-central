@@ -33,6 +33,7 @@ const NewsCard = ({ article, delay = 0 }) => {
             src={article.image || "/api/placeholder/400/224"}
             alt={article.title}
             fill
+            sizes="(max-width: 640px) 100vw, 50vw"
             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
@@ -101,6 +102,7 @@ const NewsCard = ({ article, delay = 0 }) => {
                   src={authorAvatar}
                   alt={authorName}
                   fill
+                  sizes="(max-width: 640px) 100vw, 50vw"
                   className="object-cover"
                 />
               </div>

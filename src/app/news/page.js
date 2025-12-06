@@ -1,53 +1,36 @@
 // src/app/news/page.js
-
-import NewsHero from "../../components/news/newsHero";
-import NewsCategories from "../../components/news/newsCategories";
-import NewsTrending from "../../components/news/newsTrending";
-import NewsGrid from "../../components/news/newsGrid";
-import NewsNewsletter from "../../components/news/newsLetter";
-
-// Import server-side data utility functions
+import { Suspense } from "react";
 import { getNewsArticlesByCategory, getLatestNewsArticles } from "@/data/index";
+import NewsPageClient from "./news-client";
 
 /**
- * Main News Page (Server Component)
- * Fetches data based on URL search parameters for efficient rendering.
- * @param {Object} props - Contains Next.js searchParams
+ * Server Component - handles data fetching only
+ * No client-side hooks here
  */
 export default async function NewsPage({ searchParams }) {
-  // 1. Determine the active category from URL search parameters. Defaults to "All".
-  // Accessing searchParams.category immediately here resolves the "sync-dynamic-apis" warning.
-  const activeCategory = searchParams.category || "All";
+  // Safely await and extract searchParams
+  const resolvedParams = await Promise.resolve(searchParams);
+  const activeCategory = resolvedParams?.category || "All";
 
-  // 2. Fetch the articles needed for the News Grid based on the category.
-  let filteredArticles = [];
-  if (activeCategory === "All") {
-    // If 'All' is selected, fetch a large, sorted list of the latest articles.
-    filteredArticles = getLatestNewsArticles(100);
-  } else {
-    // Fetch articles only for the selected category.
-    filteredArticles = getNewsArticlesByCategory(activeCategory);
-  }
+  // Fetch all data server-side
+  const filteredArticles =
+    activeCategory === "All"
+      ? getLatestNewsArticles(100)
+      : getNewsArticlesByCategory(activeCategory);
 
-  // 3. Fetch the articles needed for the Hero section (always the latest 3).
   const heroArticles = getLatestNewsArticles(3);
 
+  // Pass everything to client component as props
   return (
-    <main className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-500">
-      {/* Hero Section: Display the 3 latest articles */}
-      <NewsHero articles={heroArticles} />
-
-      {/* Categories Section: Passes the current active category from the URL */}
-      <NewsCategories activeCategory={activeCategory} />
-
-      {/* Trending Section */}
-      <NewsTrending />
-
-      {/* News Grid Section: Displays the server-filtered list of articles */}
-      <NewsGrid articles={filteredArticles} />
-
-      {/* Newsletter Section */}
-      <NewsNewsletter />
-    </main>
+    // 💥 WRAP THE ENTIRE CLIENT COMPONENT HERE 💥
+    <Suspense>
+      <NewsPageClient
+        activeCategory={activeCategory}
+        filteredArticles={filteredArticles}
+        heroArticles={heroArticles}
+      />
+    </Suspense>
+    // Note: We don't need a fallback here because the fallback for all
+    // components is already defined inside NewsPageClient.
   );
 }
