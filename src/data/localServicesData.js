@@ -1,120 +1,102 @@
-//src/data/localServicesData.js
+// src/data/localServicesData.js
+
 export const localServicesData = {
+  // Coordinates for the center of Ipaja-Ayobo (approx.)
+  IPAJACENTER: { lat: 6.671, lng: 3.268 },
+
   emergencyServices: [
     {
-      id: "alimosho-police",
-      name: "Alimosho Police Division",
+      id: "ipaja-police-station",
+      name: "Ipaja Police Station",
       category: "Emergency Services",
       priority: 1,
       contact: {
-        phone: "+234-803-555-0101",
-        email: "police.alimosho@lagosstate.gov.ng",
+        phone: "+234-803-555-2121", // New local number
+        email: "police.ipaja@lagosstate.gov.ng",
       },
-      address: "Idimu-Egbeda Road, Egbeda, Lagos",
-      coordinates: { lat: 6.61, lng: 3.24 },
+      address: "**Ipaja Road, Command Bus Stop, Ipaja, Lagos**",
+      coordinates: { lat: 6.658, lng: 3.275 },
       hours: "24/7",
       status: "Available",
       description:
-        "Full-service police station handling criminal matters, complaints, and emergency response.",
+        "Primary police station serving Ipaja, Command, and surrounding areas. Handles criminal matters and emergency response.",
       onlineServices: ["Report Crime Online", "Police Report Request"],
       processingTime: "Immediate for emergencies",
       fees: "Free for emergencies",
       hasOnlineOption: true,
     },
     {
-      id: "dopemu-police-station",
-      name: "Dopemu Police Station",
+      id: "ayobo-police-post",
+      name: "Ayobo Police Post",
       category: "Emergency Services",
       priority: 1,
       contact: {
-        phone: "+234-803-555-0102",
-        email: "dopemu.police@lagosstate.gov.ng",
+        phone: "+234-803-555-2122", // New local number
+        email: "ayobo.police@lagosstate.gov.ng",
       },
-      address: "Abeokuta Expressway, Dopemu, Lagos",
-      coordinates: { lat: 6.611, lng: 3.245 },
+      address: "**Ayobo Road, Bada Bus Stop, Ayobo, Lagos**",
+      coordinates: { lat: 6.702, lng: 3.235 },
       hours: "24/7",
       status: "Available",
       description:
-        "Community policing and crime prevention services for the Dopemu axis.",
-      onlineServices: ["Report Crime Online", "Police Report Request"],
+        "Local police post providing community policing and rapid response for Ayobo, Gate, and Isefun residents.",
+      onlineServices: ["Traffic Report", "Community Complaint"],
       processingTime: "Immediate for emergencies",
       fees: "Free for emergencies",
       hasOnlineOption: true,
     },
     {
-      id: "shasha-police-station",
-      name: "Shasha Police Station",
+      id: "lagos-fire-ipaja",
+      name: "Lagos State Fire Service (Ipaja)",
       category: "Emergency Services",
       priority: 1,
       contact: {
-        phone: "+234-803-555-0103",
-        email: "shasha.police@lagosstate.gov.ng",
+        phone: "**767** or **112**", // Lagos Emergency numbers
+        email: "fire.ipaja@lagosstate.gov.ng",
       },
-      address: "Shasha Road, Akowonjo, Lagos",
-      coordinates: { lat: 6.608, lng: 3.25 },
+      address: "Close to Ipaja Market, Ipaja, Lagos",
+      coordinates: { lat: 6.665, lng: 3.28 },
       hours: "24/7",
       status: "Available",
-      description:
-        "General police services and traffic control for the Shasha axis.",
-      onlineServices: ["Traffic Report", "Police Report Request"],
+      description: "Emergency fire fighting and rescue services for the axis.",
+      onlineServices: ["Report Fire Incident", "Safety Inspection Request"],
       processingTime: "Immediate for emergencies",
       fees: "Free for emergencies",
-      hasOnlineOption: true,
-    },
-    {
-      id: "igando-police-station",
-      name: "Igando Police Station",
-      category: "Emergency Services",
-      priority: 1,
-      contact: {
-        phone: "+234-803-555-0104",
-        email: "igando.police@lagosstate.gov.ng",
-      },
-      address: "LASU-Isheri Road, Igando, Lagos",
-      coordinates: { lat: 6.615, lng: 3.242 },
-      hours: "24/7",
-      status: "Available",
-      description:
-        "General police services and community safety for the Igando area.",
-      onlineServices: ["Report Crime Online", "Police Report Request"],
-      processingTime: "Immediate for emergencies",
-      fees: "Free for emergencies",
-      hasOnlineOption: true,
+      hasOnlineOption: false,
     },
   ],
 
   onlineFirstServices: [
     {
-      id: "business-permit",
-      name: "Business Permit Registration",
+      id: "business-permit-ayobo",
+      name: "Alimosho LGA Business Permit Registration",
       category: "Online-First Services",
       priority: 1,
       contact: {
         phone: "+234-803-555-0201",
         email: "permits@alimosho.gov.ng",
       },
-      address: "Alimosho LGA Secretariat, Akowonjo, Lagos",
+      address: "Alimosho LGA Secretariat, **Akowonjo/Idimu (Central Office)**",
       coordinates: { lat: 6.61, lng: 3.24 },
       hours: "9:00 AM - 3:00 PM (Mon-Fri)",
       status: "Available",
       description:
-        "Register new businesses, renew permits, and more - now available online!",
+        "Register new businesses and renew permits. **Online application is highly encouraged** for residents of Ipaja-Ayobo to avoid travel to the central secretariat.",
       onlineServices: [
         "Apply for New Business Permit",
         "Renew Existing Permit",
-        "Check Application Status",
-        "Download Certificate",
         "Pay Fees Online",
       ],
-      processingTime: "3-5 business days online, 7-10 days in-person",
+      processingTime: "3-5 business days online",
       requirements:
-        "Business plan, valid ID, proof of address, CAC certificate",
+        "Business plan, valid ID, proof of address (e.g., **Fagba Street or Mercy Road** address)",
       fees: "₦15,000 - ₦50,000 (pay online for 10% discount)",
       hasOnlineOption: true,
     },
+    // ... (Tax and Birth Certificate services remain Alimosho LGA-wide but emphasize online use)
     {
-      id: "tax-payment",
-      name: "Tax Payment & Assessment",
+      id: "tax-payment-alimosho",
+      name: "Lagos State Tax Payment (ALIMOSHO)",
       category: "Online-First Services",
       priority: 1,
       contact: {
@@ -126,23 +108,20 @@ export const localServicesData = {
       hours: "8:00 AM - 4:00 PM (Mon-Fri)",
       status: "Available",
       description:
-        "Pay personal income tax, property tax, and get tax clearance certificates online.",
+        "Pay personal income tax and property tax. **Use the online portal for instant tax clearance**.",
       onlineServices: [
         "Pay Income Tax Online",
         "Property Tax Payment",
         "Download Tax Clearance",
-        "Tax Assessment Appeal",
-        "Payment History",
       ],
-      processingTime: "Instant online payment, 24-48 hours for certificates",
-      requirements:
-        "Valid ID, TIN number, property documents (for property tax)",
+      processingTime: "Instant online payment",
+      requirements: "TIN number, property documents (for property tax)",
       fees: "Varies by income/property value (online payment saves time)",
       hasOnlineOption: true,
     },
     {
-      id: "birth-certificate",
-      name: "Birth Certificate Registration",
+      id: "birth-certificate-alimosho",
+      name: "Birth Certificate Registration (Alimosho)",
       category: "Online-First Services",
       priority: 1,
       contact: {
@@ -154,15 +133,13 @@ export const localServicesData = {
       hours: "9:00 AM - 3:00 PM (Mon-Fri)",
       status: "Available",
       description:
-        "Register births and obtain certificates online - skip the queue!",
+        "Register births and obtain certificates. **Online registration is the fastest method**.",
       onlineServices: [
         "Apply for Birth Certificate",
-        "Correct Birth Certificate",
         "Track Application Status",
         "Download Certificate",
-        "Pay Processing Fees",
       ],
-      processingTime: "5-7 days online, 14-21 days in-person",
+      processingTime: "5-7 days online",
       requirements: "Hospital birth record, parents' ID, marriage certificate",
       fees: "₦3,000 online, ₦5,000 in-person",
       hasOnlineOption: true,
@@ -171,115 +148,78 @@ export const localServicesData = {
 
   utilitiesInfrastructure: [
     {
-      id: "primary-healthcare",
-      name: "Primary Healthcare Centers",
+      id: "ipaja-phc",
+      name: "**Ipaja Primary Healthcare Center**",
       category: "Utilities & Infrastructure",
       priority: 2,
       contact: {
-        phone: "+234-803-555-0301",
-        email: "health@alimosho.gov.ng",
+        phone: "+234-803-555-3101",
+        email: "health.ipaja@alimosho.gov.ng",
       },
-      address: "Various locations across Alimosho LGA",
-      coordinates: { lat: 6.61, lng: 3.24 },
+      address: "**Shagari Housing Estate, Ipaja, Lagos**",
+      coordinates: { lat: 6.66, lng: 3.27 },
       hours: "8:00 AM - 4:00 PM (Mon-Fri), Emergency 24/7",
       status: "Available",
       description:
-        "Maternal health, child immunization, family planning, and basic medical services.",
-      onlineServices: [
-        "Book Appointment Online",
-        "Download Health Records",
-        "Vaccination Schedule",
-        "Antenatal Registration",
-      ],
-      processingTime: "Same day for appointments, instant for records",
+        "Maternal health, child immunization, and basic medical services for Ipaja and Command residents.",
+      onlineServices: ["Book Appointment Online", "Vaccination Schedule"],
+      processingTime: "Same day for appointments",
       requirements: "Health insurance card or payment, valid ID",
       fees: "₦500 - ₦2,000 per consultation",
       hasOnlineOption: true,
     },
     {
-      id: "waste-management",
-      name: "Waste Management Services",
+      id: "ayobo-phc",
+      name: "**Ayobo Primary Healthcare Center**",
+      category: "Utilities & Infrastructure",
+      priority: 2,
+      contact: {
+        phone: "+234-803-555-3102",
+        email: "health.ayobo@alimosho.gov.ng",
+      },
+      address: "**Ayobo Market Road, Ayobo, Lagos**",
+      coordinates: { lat: 6.69, lng: 3.25 },
+      hours: "8:00 AM - 4:00 PM (Mon-Fri), Emergency 24/7",
+      status: "Available",
+      description:
+        "Healthcare services, family planning, and immunization programs for Ayobo and Isefun communities.",
+      onlineServices: ["Book Appointment Online", "Vaccination Schedule"],
+      processingTime: "Same day for appointments",
+      requirements: "Health insurance card or payment, valid ID",
+      fees: "₦500 - ₦2,000 per consultation",
+      hasOnlineOption: true,
+    },
+    {
+      id: "waste-management-ipaja",
+      name: "Waste Management Services (Ipaja-Ayobo)",
       category: "Utilities & Infrastructure",
       priority: 2,
       contact: {
         phone: "+234-803-555-0302",
         email: "waste@alimosho.gov.ng",
       },
-      address: "Alimosho Environmental Office, Lagos",
+      address: "Alimosho Environmental Office (Central)",
       coordinates: { lat: 6.61, lng: 3.24 },
       hours: "24/7 Collection Service",
       status: "Available",
       description:
-        "Household waste collection, recycling programs, and environmental services.",
+        "Household waste collection, **serving streets like Mercy Road, Fela Owolabi St, and Alaja Road.** Report missed collections online.",
       onlineServices: [
         "Schedule Waste Pickup",
         "Report Missed Collection",
         "Pay Waste Bills Online",
-        "Request Recycling Service",
       ],
       processingTime: "24-48 hours for pickup requests",
       requirements: "Property address verification",
-      fees: "₦1,500 monthly for households, ₦5,000+ for businesses",
-      hasOnlineOption: true,
-    },
-    {
-      id: "water-sewage",
-      name: "Water & Sewage Services",
-      category: "Utilities & Infrastructure",
-      priority: 2,
-      contact: {
-        phone: "+234-803-555-0303",
-        email: "water@alimosho.gov.ng",
-      },
-      address: "Alimosho Water Works, Lagos",
-      coordinates: { lat: 6.61, lng: 3.24 },
-      hours: "8:00 AM - 5:00 PM (Mon-Fri), Emergency 24/7",
-      status: "Available",
-      description:
-        "Water supply connections, sewage services, and pipeline maintenance.",
-      onlineServices: [
-        "Apply for Water Connection",
-        "Report Water Issues",
-        "Pay Water Bills",
-        "Request Maintenance",
-      ],
-      processingTime: "3-5 days for connections, 24 hours for repairs",
-      requirements: "Property ownership proof, application fee",
-      fees: "₦25,000 connection fee, monthly bills vary",
-      hasOnlineOption: true,
-    },
-    {
-      id: "road-maintenance",
-      name: "Road Maintenance & Infrastructure",
-      category: "Utilities & Infrastructure",
-      priority: 3,
-      contact: {
-        phone: "+234-803-555-0304",
-        email: "roads@alimosho.gov.ng",
-      },
-      address: "Alimosho Works Department, Lagos",
-      coordinates: { lat: 6.61, lng: 3.24 },
-      hours: "8:00 AM - 5:00 PM (Mon-Fri)",
-      status: "Available",
-      description:
-        "Road repairs, street lighting, drainage, and general infrastructure maintenance.",
-      onlineServices: [
-        "Report Road Damage",
-        "Request Street Light Repair",
-        "Submit Infrastructure Complaint",
-        "Track Repair Status",
-      ],
-      processingTime: "7-14 days depending on issue severity",
-      requirements: "Location details, photo evidence preferred",
-      fees: "Free for public infrastructure",
+      fees: "₦1,500 monthly for households",
       hasOnlineOption: true,
     },
   ],
 
   administrativeServices: [
     {
-      id: "marriage-certificate",
-      name: "Marriage Certificate Registration",
+      id: "marriage-certificate-ayobo",
+      name: "Marriage Registry (Alimosho Branch)",
       category: "Administrative Services",
       priority: 2,
       contact: {
@@ -291,21 +231,17 @@ export const localServicesData = {
       hours: "9:00 AM - 3:00 PM (Mon-Fri)",
       status: "Available",
       description:
-        "Marriage registration, certificate issuance, and marriage verification services.",
-      onlineServices: [
-        "Book Marriage Date",
-        "Download Marriage Certificate",
-        "Marriage Verification",
-        "Pay Registration Fees",
-      ],
-      processingTime: "Same day for ceremonies, 3-5 days for certificates",
-      requirements: "Valid IDs, divorce certificate (if applicable), witnesses",
+        "Marriage registration and certificate issuance. All residents must visit the central registry office.",
+      onlineServices: ["Book Marriage Date", "Pay Registration Fees"],
+      processingTime: "Same day for ceremonies",
+      requirements: "Valid IDs, witnesses",
       fees: "₦10,000 registration + ₦5,000 certificate",
       hasOnlineOption: true,
     },
+    // ... (Death and Land services are central and remain the same structure)
     {
-      id: "death-certificate",
-      name: "Death Certificate Registration",
+      id: "death-certificate-alimosho",
+      name: "Death Certificate Registration (Alimosho)",
       category: "Administrative Services",
       priority: 2,
       contact: {
@@ -317,13 +253,8 @@ export const localServicesData = {
       hours: "9:00 AM - 3:00 PM (Mon-Fri)",
       status: "Available",
       description:
-        "Death registration and certificate issuance for legal and administrative purposes.",
-      onlineServices: [
-        "Register Death Online",
-        "Download Death Certificate",
-        "Death Verification",
-        "Correction Requests",
-      ],
+        "Death registration and certificate issuance for legal purposes.",
+      onlineServices: ["Register Death Online", "Download Death Certificate"],
       processingTime: "5-7 days",
       requirements:
         "Medical certificate of death, ID of deceased, next of kin ID",
@@ -331,8 +262,8 @@ export const localServicesData = {
       hasOnlineOption: true,
     },
     {
-      id: "land-documentation",
-      name: "Land Documentation Services",
+      id: "land-documentation-alimosho",
+      name: "Land Documentation Services (Alimosho)",
       category: "Administrative Services",
       priority: 3,
       contact: {
@@ -344,14 +275,13 @@ export const localServicesData = {
       hours: "9:00 AM - 3:00 PM (Mon-Fri)",
       status: "Limited Services",
       description:
-        "Land ownership verification, building permits, and property documentation.",
+        "Land ownership verification and building permits. **Verify property documents before any purchase in Ipaja-Ayobo.**",
       onlineServices: [
         "Verify Land Ownership",
         "Apply for Building Permit",
         "Property Search",
-        "Document Certification",
       ],
-      processingTime: "14-21 days for permits, 7 days for verification",
+      processingTime: "14-21 days for permits",
       requirements:
         "Survey plans, land documents, architectural drawings (for permits)",
       fees: "₦50,000 - ₦200,000 depending on property size and permit type",
@@ -360,35 +290,34 @@ export const localServicesData = {
   ],
 };
 
-
 // Helper function to get all services sorted by priority and online availability
 export const getAllServices = () => {
   const allServices = [
     ...localServicesData.emergencyServices,
     ...localServicesData.onlineFirstServices,
     ...localServicesData.utilitiesInfrastructure,
-    ...localServicesData.administrativeServices
+    ...localServicesData.administrativeServices,
   ];
 
   return allServices.sort((a, b) => {
     // First sort by online availability (online first)
     if (a.hasOnlineOption && !b.hasOnlineOption) return -1;
     if (!a.hasOnlineOption && b.hasOnlineOption) return 1;
-    
+
     // Then by priority
     return a.priority - b.priority;
   });
 };
 
 export const getServicesByCategory = (category) => {
-  switch(category) {
-    case 'Emergency Services':
+  switch (category) {
+    case "Emergency Services":
       return localServicesData.emergencyServices;
-    case 'Online-First Services':
+    case "Online-First Services":
       return localServicesData.onlineFirstServices;
-    case 'Utilities & Infrastructure':
+    case "Utilities & Infrastructure":
       return localServicesData.utilitiesInfrastructure;
-    case 'Administrative Services':
+    case "Administrative Services":
       return localServicesData.administrativeServices;
     default:
       return [];

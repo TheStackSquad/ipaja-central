@@ -10,7 +10,7 @@ export const legislativeArticles = [
     readTime: "5 min",
     trend: "New Law",
     content:
-      "The Oshodi-Isolo Local Government Council has successfully passed a new bill introducing a mandatory levy on market vendors to fund modern waste collection and recycling initiatives across the LGA.",
+      "The Ipaja-Ayobo Local Government Council has successfully passed a new bill introducing a mandatory levy on market vendors to fund modern waste collection and recycling initiatives across the LGA.",
   },
   {
     id: "leg-102",
