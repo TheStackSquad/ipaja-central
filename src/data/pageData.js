@@ -3,17 +3,17 @@
 export const carouselItems = [
   {
     type: "executive",
-    title: "Hon. Babatunde Azeez",
+    title: "Hon. Abiodun Agbaje",
     subtitle: "Executive Chairman",
     description:
-      "Leading Alimosho LGA with vision and dedication to community development",
-    image: "/img/chairr.jpg",
+      "Leading Ipaja - Ayobo LGA with vision and dedication to community development",
+    image: "/img/AA.jpg",
     date: null,
     category: "Leadership",
   },
   {
     type: "executive",
-    title: "Hon. Vinod Obasa",
+    title: "Hon. Jimoh Akinola",
     subtitle: "Vice Chairman",
     description:
       "Supporting administrative excellence and citizen welfare initiatives",
