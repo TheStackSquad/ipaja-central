@@ -1,31 +1,30 @@
 //src/data/oshodiData.js
 
-// This is mock data. Replace it with real, up-to-date information.
 
 export const publicInstitutions = [
   {
     id: 1,
-    name: "Alimosho Local Government Secretariat",
+    name: "Ipaja - Ayobo Local Government Secretariat",
     address: "3, Bada Street, Akowonjo, Lagos.",
     contact: "0816 164 5755",
   },
   {
     id: 2,
-    name: "Alimosho General Hospital",
+    name: "Ipaja - Ayobo General Hospital",
     address: "Km 4, LASU-Isheri Express-way, General Bus Stop, Igando, Lagos.",
     contact: "0807 559 3759",
   },
   {
     id: 3,
     name: "Shasha Police Station",
-    address: "Toyin Giwa Avenue, Egbeda, Alimosho, Lagos.",
+    address: "Toyin Giwa Avenue, Egbeda, Ipaja - Ayobo, Lagos.",
     contact: "N/A", // Specific public contact not readily available
   },
   {
     id: 4,
     name: "Lagos State Education District I",
     address:
-      "Agege Motor Road, beside NYSC Camp, Iyana-Ipaja, Alimosho, Lagos.",
+      "Agege Motor Road, beside NYSC Camp, Iyana-Ipaja, Ipaja - Ayobo, Lagos.",
     contact: "N/A", // Specific public contact not readily available
   },
 ];

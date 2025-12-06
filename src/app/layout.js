@@ -46,6 +46,7 @@ export const metadata = {
     images: ["https://www.ipajacentral.org/twitter-image.jpg"], // Replace with a high-quality image URL
   },
 };
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>

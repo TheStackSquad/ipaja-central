@@ -219,8 +219,7 @@ export default function ContactSection() {
                       className="text-gray-600"
                       style={{ fontFamily: "Roboto, serif" }}
                     >
-                      Oshodi-Isolo Local Government Secretariat, 72 Oyetayo
-                      Street, Oshodi, Lagos.
+                      Ipaja - Ayobo Local Government Secretariat, 72 Ipaja - Ayobo Rd.
                       <br />
                       Lagos State, Nigeria
                     </p>

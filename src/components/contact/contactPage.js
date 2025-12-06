@@ -222,8 +222,8 @@ const ContactPage = () => {
               <h3 className="text-lg font-semibold text-gray-800 mb-2">
                 Visit Us
               </h3>
-              <p className="text-gray-600">Oshodi Local Government</p>
-              <p className="text-gray-600">Secretariat, Oshodi</p>
+              <p className="text-gray-600">Ipaja Ayobo Local Government</p>
+              <p className="text-gray-600">Secretariat, Ayobo</p>
               <p className="text-gray-600">Lagos State, Nigeria</p>
             </div>
 
